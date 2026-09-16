@@ -24,7 +24,7 @@ ARROW = '<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">\n'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
-         '<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1'
+         '<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800'
          '&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">')
 
 def head(R, title, desc, canonical=None, extra=""):

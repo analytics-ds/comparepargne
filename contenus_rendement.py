@@ -10,7 +10,7 @@ dict(
  desc="Quel fonds en euros a le meilleur rendement en 2026 ? Nous avons repris les taux servis par 16 fonds en euros sur trois exercices, vérifié le niveau de garantie du capital et lu les conditions de bonus. Classement, tableau et verdict.",
  kicker="Classement", h1="Meilleur fonds en euros 2026",
  lead="Seize fonds en euros, trois exercices de rendement servi, le niveau exact de garantie du capital et les conditions qui accompagnent les taux mis en avant. Un taux affiché sous condition d'unités de compte n'est pas un taux servi à tout le monde, et c'est le premier piège de ce classement.",
- img="rend-1.svg", img_alt="Courbe de rendement d'un fonds en euros",
+ img="rend-1.jpg", img_alt="Courbes de marché affichées sur un écran",
  date="2026-09-15", date_fr="15 septembre 2026", reading="9", nb="16 fonds", nb_label="comparés",
  brief_answer="Sur nos relevés, <b>MACSF RES</b> sert le rendement le plus élevé du panel sur les trois derniers exercices, sans condition d'accès ni part minimale d'unités de compte. <b>Groupama Modulation</b> est le plus régulier, avec trois exercices sans décrochage et une garantie du capital nette de frais de gestion. Attention aux fonds de nouvelle génération, plus dynamiques mais dont la garantie est parfois limitée à 98 % du capital.",
  brief=[
@@ -45,7 +45,7 @@ dict(
   ]),
   dict(h2="Le tableau des rendements servis", id="tableau", body=[
    ("table",None),
-   ("img",dict(src="in-rend-1.svg",alt="Écart de rendement entre plusieurs fonds en euros",cap="L'écart entre le meilleur et le moins bon fonds du panel dépasse un point sur le dernier exercice, soit 200 € par an sur 20 000 € placés.")),
+   ("img",dict(src="in-rend-1.jpg",alt="Courbe de performance imprimée sur un document",cap="Un taux servi se lit sur trois exercices. Un excellent millésime suivi de deux décrochages vaut moins qu'une courbe régulière un demi-point en dessous.")),
    ("p","Sur 20 000 € placés, un point de rendement en plus représente 200 € par an. C'est significatif, mais c'est du même ordre de grandeur que l'écart de frais de gestion entre le contrat le plus cher et le moins cher du panel. Autrement dit, un excellent fonds en euros logé dans un contrat coûteux ne vaut pas mieux qu'un bon fonds en euros dans un contrat bon marché."),
   ]),
   dict(h2="Le piège des taux annoncés sous condition", id="conditions", body=[
@@ -81,9 +81,9 @@ dict(
   ("Vaut-il mieux un bon fonds en euros ou des frais bas ?","Les deux se compensent. Un point de rendement supplémentaire équivaut à peu près à un point de frais de gestion en moins, sauf que les frais sont certains et que le rendement ne l'est pas. À arbitrer, commencez par les frais."),
   ("Peut-on changer de fonds en euros sans changer de contrat ?","Oui si le contrat propose plusieurs fonds en euros, par un arbitrage interne. Changer d'assureur en revanche implique d'ouvrir un nouveau contrat et de perdre l'antériorité fiscale de l'ancien."),
  ],
- related=[("rendement-frais","rend-2.svg","Frais","Frais d'assurance vie : le comparatif ligne par ligne des 16 contrats"),
-          ("assurance-vie","une.svg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
-          ("rendement-frais","rend-3.svg","Gestion pilotée","Gestion pilotée : quelle assurance vie choisir quand on ne veut pas gérer")],
+ related=[("rendement-frais","rend-2.jpg","Frais","Frais d'assurance vie : le comparatif ligne par ligne des 16 contrats"),
+          ("assurance-vie","une.jpg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
+          ("rendement-frais","rend-3.jpg","Gestion pilotée","Gestion pilotée : quelle assurance vie choisir quand on ne veut pas gérer")],
 ),
 
 # ============================ 2. LES FRAIS ================================= #
@@ -93,7 +93,7 @@ dict(
  desc="Quels sont les frais d'une assurance vie en 2026 et comment les réduire ? Frais de versement, de gestion, d'arbitrage, frais courants des supports et frais d'arrérages : les cinq lignes relevées dans les conditions générales de 16 contrats.",
  kicker="Comparatif", h1="Frais d'assurance vie : le comparatif ligne par ligne",
  lead="Un contrat d'assurance vie prélève sur cinq lignes distinctes, dont trois n'apparaissent jamais sur une page commerciale. Nous les avons relevées dans les conditions générales des seize contrats du panel, puis chiffrées sur un même versement pour rendre l'écart lisible.",
- img="rend-2.svg", img_alt="Répartition des frais d'un contrat d'épargne",
+ img="rend-2.jpg", img_alt="Calculatrice, stylo et feuille blanche sur un bureau",
  date="2026-09-14", date_fr="14 septembre 2026", reading="8", nb="16 contrats", nb_label="passés au crible",
  brief_answer="Une assurance vie prélève sur <b>cinq lignes</b> : les frais sur versement (0 % en ligne, 2 à 3 % en réseau), les frais de gestion annuels (0,50 % à 1,00 % sur les unités de compte), les frais courants des supports choisis (0,10 % pour un fonds indiciel à plus de 2 % pour un fonds actif), les frais d'arbitrage et les frais d'arrérages en cas de sortie en rente. Sur huit ans et 20 000 €, l'écart entre le contrat le moins cher et le plus cher du panel dépasse <b>1 600 €</b>.",
  brief=[
@@ -135,7 +135,7 @@ dict(
   dict(h2="Le tableau comparatif des frais", id="tableau", body=[
    ("table",None),
    ("p","La colonne qui compte est la dernière. Elle ramène tout sur un même versement et une même durée, ce qui est la seule façon honnête de comparer un contrat qui prélève à l'entrée et un contrat qui prélève dans la durée."),
-   ("img",dict(src="in-rend-2.svg",alt="Écart de frais entre contrats sur huit ans",cap="À rendement identique, l'écart de frais entre le contrat le moins cher et le contrat bancaire moyen atteint 1 650 € sur huit ans pour 20 000 € placés.")),
+   ("img",dict(src="in-rend-2.jpg",alt="Calculatrice posée sur un bureau sombre",cap="Les cinq lignes de frais ne figurent jamais sur la même page. Il faut les additionner soi-même pour comparer deux contrats honnêtement.")),
   ]),
   dict(h2="L'étage oublié : les frais courants des supports", id="supports", body=[
    ("p","C'est la ligne que presque personne ne regarde, et c'est souvent la plus lourde. Un fonds actif prélève couramment 1,5 % à 2 % de frais courants par an, un fonds indiciel de 0,10 % à 0,30 %. Ces frais sont déduits de la valeur du support avant que le contrat ne prélève ses propres frais de gestion."),
@@ -169,9 +169,9 @@ dict(
   ("Les frais d'entrée sont-ils négociables ?","Dans les réseaux bancaires et chez les assureurs traditionnels, presque toujours. Le taux inscrit au contrat est un maximum, le taux appliqué se discute au moment de la souscription et sur les versements importants."),
   ("Qu'est-ce que les frais courants d'un support ?","Ce sont les frais prélevés par la société de gestion à l'intérieur du fonds, avant les frais du contrat. Ils figurent dans le document d'informations clés et vont de 0,10 % pour un fonds indiciel à plus de 2 % pour un fonds géré activement."),
  ],
- related=[("rendement-frais","rend-1.svg","Fonds en euros","Meilleur fonds en euros 2026 : les rendements servis, contrat par contrat"),
-          ("assurance-vie","une.svg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
-          ("rendement-frais","rend-3.svg","Gestion pilotée","Gestion pilotée : quelle assurance vie choisir quand on ne veut pas gérer")],
+ related=[("rendement-frais","rend-1.jpg","Fonds en euros","Meilleur fonds en euros 2026 : les rendements servis, contrat par contrat"),
+          ("assurance-vie","une.jpg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
+          ("rendement-frais","rend-3.jpg","Gestion pilotée","Gestion pilotée : quelle assurance vie choisir quand on ne veut pas gérer")],
 ),
 
 # ========================== 3. GESTION PILOTEE ============================= #
@@ -181,7 +181,7 @@ dict(
  desc="Quelle assurance vie en gestion pilotée choisir en 2026 ? Coût du mandat, frais totaux des trois étages, profils proposés, transparence du reporting : dix offres de gestion déléguée comparées.",
  kicker="Comparatif", h1="Gestion pilotée : quelle assurance vie choisir",
  lead="Déléguer la gestion de son contrat coûte un étage de frais supplémentaire. Reste à savoir lequel, et ce qu'il achète : dix offres comparées sur le coût total des trois étages, la clarté des profils et la qualité du reporting.",
- img="rend-3.svg", img_alt="Allocation d'un contrat en gestion déléguée",
+ img="rend-3.jpg", img_alt="Lunettes posées devant un écran de cotation",
  date="2026-09-12", date_fr="12 septembre 2026", reading="9", nb="10 offres", nb_label="comparées",
  brief_answer="La gestion pilotée se juge sur le <b>coût total des trois étages</b> : frais du contrat, coût du mandat et frais courants des supports utilisés. Les meilleures offres du panel restent sous <b>1,20 % par an tout compris</b> en s'appuyant sur des fonds indiciels, les plus chères dépassent <b>2,20 %</b> en utilisant des fonds maison gérés activement. À performance de marché identique, cet écart représente environ <b>1 800 €</b> sur 20 000 € placés pendant huit ans.",
  brief=[
@@ -237,8 +237,8 @@ dict(
   ("Peut-on passer de la gestion libre à la gestion pilotée ?","Oui, sur la plupart des contrats, par simple demande et sans changer de contrat ni perdre l'antériorité fiscale. L'opération peut en revanche déclencher des frais d'arbitrage sur les contrats qui les facturent."),
   ("Qu'est-ce que la désensibilisation ?","C'est la réduction progressive de la part risquée du portefeuille à l'approche de l'échéance prévue. Elle protège le capital accumulé et constitue le principal apport technique d'une gestion pilotée par horizon."),
  ],
- related=[("rendement-frais","rend-2.svg","Frais","Frais d'assurance vie : le comparatif ligne par ligne des 16 contrats"),
-          ("per-retraite","per-1.svg","Retraite","Meilleur PER 2026 : le comparatif de 12 plans d'épargne retraite"),
-          ("assurance-vie","une.svg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats")],
+ related=[("rendement-frais","rend-2.jpg","Frais","Frais d'assurance vie : le comparatif ligne par ligne des 16 contrats"),
+          ("per-retraite","per-1.jpg","Retraite","Meilleur PER 2026 : le comparatif de 12 plans d'épargne retraite"),
+          ("assurance-vie","une.jpg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats")],
 ),
 ]

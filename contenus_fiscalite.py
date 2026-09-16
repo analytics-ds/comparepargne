@@ -10,7 +10,7 @@ dict(
  desc="Comment est imposée une assurance vie en 2026 ? Imposition des rachats avant et après huit ans, abattement de 4 600 et 9 200 €, prélèvement forfaitaire ou barème, prélèvements sociaux : le calcul déroulé sur quatre cas chiffrés.",
  kicker="Dossier", h1="Fiscalité de l'assurance vie en 2026",
  lead="Un retrait d'assurance vie n'est jamais imposé en totalité : seule la part de gains contenue dans le rachat entre dans l'assiette. Nous déroulons le calcul sur quatre cas, avant huit ans puis après, au prélèvement forfaitaire comme au barème de l'impôt sur le revenu.",
- img="fisc-1.svg", img_alt="Répartition entre capital versé et gains d'un contrat",
+ img="fisc-1.jpg", img_alt="Documents et ordinateur portable posés sur un bureau",
  date="2026-09-14", date_fr="14 septembre 2026", reading="10", nb="4 cas", nb_label="chiffrés",
  brief_answer="Seuls les <b>gains</b> contenus dans un rachat sont imposés, jamais le capital que vous avez versé. Avant huit ans, ces gains supportent le prélèvement forfaitaire unique, soit <b>12,8 % d'impôt et 17,2 % de prélèvements sociaux</b>, avec une option possible pour le barème. Après huit ans, un <b>abattement annuel de 4 600 €</b> (9 200 € pour un couple) s'applique d'abord sur les gains retirés, et le taux d'impôt tombe à <b>7,5 %</b> pour la part correspondant à des primes inférieures à 150 000 €.",
  brief=[
@@ -53,7 +53,7 @@ dict(
            ["Contrat de 9 ans, 8 000 € de gains retirés","8 000 €","4 600 €","255 €","1 376 €","38 369 €"]],
      note="Calculs au prélèvement forfaitaire, pour des primes versées depuis le 27 septembre 2017 et inférieures à 150 000 €. Le dernier cas porte sur un rachat de 40 000 €. Exemples pédagogiques, à vérifier au regard de votre situation.")),
    ("p","Le deuxième cas est le plus instructif : après huit ans, un rachat contenant moins de 4 600 € de gains ne supporte aucun impôt sur le revenu. Seuls les prélèvements sociaux restent dus. C'est ce qui rend le rachat fractionné, étalé sur plusieurs années civiles, nettement plus efficace qu'un rachat unique."),
-   ("img",dict(src="in-fisc-1.svg",alt="Comparaison entre un rachat unique et des rachats fractionnés",cap="Le même montant retiré en une fois ou étalé sur trois années civiles ne produit pas la même note fiscale, à cause de l'abattement annuel.")),
+   ("img",dict(src="in-fisc-1.jpg",alt="Stylo, carnet et tasse de café sur un bureau",cap="Le même montant retiré en une fois ou étalé sur trois années civiles ne produit pas la même note fiscale, à cause de l'abattement annuel.")),
   ]),
   dict(h2="Prélèvement forfaitaire ou barème : lequel choisir", id="option", body=[
    ("p","Par défaut, les gains sont soumis au prélèvement forfaitaire. Vous pouvez opter pour le barème de l'impôt sur le revenu, mais cette option est globale : elle s'applique à tous vos revenus de capitaux mobiliers de l'année, dividendes et intérêts compris."),
@@ -85,9 +85,9 @@ dict(
   ("Faut-il déclarer son assurance vie aux impôts ?","L'assureur déclare les rachats et prélève l'impôt à la source par acompte. Vous retrouvez les montants préremplis sur votre déclaration et il vous appartient de vérifier, et éventuellement d'opter pour le barème. Les contrats souscrits à l'étranger doivent en revanche être déclarés par vos soins."),
   ("Les prélèvements sociaux sont-ils dus chaque année ?","Sur le fonds en euros oui, ils sont prélevés annuellement sur les intérêts inscrits. Sur les unités de compte, ils ne sont dus qu'au moment du rachat ou du dénouement du contrat."),
  ],
- related=[("fiscalite-succession","fisc-2.svg","Succession","Clause bénéficiaire : comment la rédiger pour que l'argent arrive où vous voulez"),
-          ("assurance-vie","une.svg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
-          ("per-retraite","per-3.svg","Retraite","PER ou assurance vie : lequel choisir pour préparer sa retraite")],
+ related=[("fiscalite-succession","fisc-2.jpg","Succession","Clause bénéficiaire : comment la rédiger pour que l'argent arrive où vous voulez"),
+          ("assurance-vie","une.jpg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
+          ("per-retraite","per-3.jpg","Retraite","PER ou assurance vie : lequel choisir pour préparer sa retraite")],
 ),
 
 # ========================= 2. CLAUSE BENEFICIAIRE ========================== #
@@ -97,7 +97,7 @@ dict(
  desc="Comment rédiger la clause bénéficiaire de son assurance vie ? Clause type, clause démembrée, enfant mineur, concubin, association : cinq rédactions, ce que chacune produit au dénouement et les erreurs qui coûtent le plus cher.",
  kicker="Guide", h1="Clause bénéficiaire : comment la rédiger",
  lead="C'est la ligne la plus expédiée du contrat et c'est celle qui décide de qui recevra l'argent, dans quelles proportions et avec quelle fiscalité. Cinq rédactions passées en revue, avec ce que chacune produit réellement au dénouement.",
- img="fisc-2.svg", img_alt="Répartition d'un capital entre plusieurs bénéficiaires",
+ img="fisc-2.jpg", img_alt="Deux personnes signant un document autour d'une table",
  date="2026-09-12", date_fr="12 septembre 2026", reading="8", nb="5 rédactions", nb_label="analysées",
  brief_answer="La <b>clause type</b> proposée par l'assureur (« mon conjoint, à défaut mes enfants nés ou à naître, à défaut mes héritiers ») convient à une situation familiale classique et rien d'autre. En concubinage, en famille recomposée, avec un enfant mineur ou un bénéficiaire fragile, elle produit des effets que personne n'a voulus. La règle : <b>une clause se relit à chaque étape de vie</b>, mariage, divorce, naissance, décès d'un proche.",
  brief=[
@@ -130,7 +130,7 @@ dict(
   dict(h2="Les cinq rédactions et ce qu'elles produisent", id="redactions", body=[
    ("table",None),
    ("p","La clause type convient à une famille classique et à elle seule. Dès que la situation s'écarte du modèle, mariage sans enfants communs, concubinage, enfant d'une première union, elle produit des répartitions qui ne correspondent pas à l'intention du souscripteur."),
-   ("img",dict(src="in-fisc-2.svg",alt="Arbre de répartition d'un capital entre bénéficiaires",cap="Une clause bien rédigée décrit un ordre, des quotités et un cas de prédécès. Les trois manquent dans la majorité des clauses que nous avons lues.")),
+   ("img",dict(src="in-fisc-2.jpg",alt="Deux personnes relisant un document autour d'une table",cap="Une clause bien rédigée décrit un ordre, des quotités et un cas de prédécès. Les trois manquent dans la majorité des clauses que nous avons lues.")),
   ]),
   dict(h2="Les erreurs qui coûtent le plus cher", id="erreurs", body=[
    ("ul",[
@@ -165,8 +165,8 @@ dict(
   ("Que se passe-t-il si aucun bénéficiaire n'est désigné ?","Le capital réintègre la succession de l'assuré et perd le régime fiscal propre à l'assurance vie. C'est le scénario que toute clause, même imparfaite, permet d'éviter."),
   ("Le bénéficiaire paie-t-il des droits de succession ?","Non au sens des droits de succession classiques. Les capitaux relèvent d'un régime propre, avec un abattement par bénéficiaire pour les primes versées avant 70 ans, et un abattement global de 30 500 € à partager pour les primes versées après 70 ans."),
  ],
- related=[("fiscalite-succession","fisc-1.svg","Fiscalité","Fiscalité de l'assurance vie en 2026 : ce que vous payez vraiment à chaque retrait"),
-          ("assurance-vie","une.svg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
-          ("assurance-vie","av-3.svg","Épargne","Assurance vie ou Livret A : où placer son épargne en 2026")],
+ related=[("fiscalite-succession","fisc-1.jpg","Fiscalité","Fiscalité de l'assurance vie en 2026 : ce que vous payez vraiment à chaque retrait"),
+          ("assurance-vie","une.jpg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
+          ("assurance-vie","av-3.jpg","Épargne","Assurance vie ou Livret A : où placer son épargne en 2026")],
 ),
 ]

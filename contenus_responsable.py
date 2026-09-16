@@ -10,7 +10,7 @@ dict(
  desc="Quelle assurance vie investissement socialement responsable choisir en 2026 ? Part réelle de supports labellisés, exclusions du charbon et du pétrole non conventionnel, frais des fonds durables : neuf contrats passés au crible.",
  kicker="Classement", h1="Meilleure assurance vie ISR 2026",
  lead="Un contrat responsable ne se reconnaît pas à la couleur de sa page d'accueil mais à deux chiffres : la part de sa gamme réellement labellisée et le contenu de sa politique d'exclusion. Neuf contrats passés au crible, avec les frais des fonds durables comparés à leurs équivalents classiques.",
- img="isr-1.svg", img_alt="Allocation d'épargne responsable",
+ img="isr-1.jpg", img_alt="Éolienne au-dessus de champs cultivés",
  date="2026-09-11", date_fr="11 septembre 2026", reading="10", nb="9 contrats", nb_label="passés au crible",
  brief_answer="<b>MAIF Responsable</b> obtient la meilleure note du panel (<b>8,7/10</b>) : gamme intégralement labellisée, politique d'exclusion écrite et reporting extra-financier détaillé. <b>Groupama Modulation ISR</b> suit à <b>8,0/10</b> avec une gamme labellisée accessible dès le premier versement et sans surcoût de frais. À l'autre bout, plusieurs contrats se présentent comme responsables avec moins de 15 % de supports labellisés dans leur gamme.",
  brief=[
@@ -43,7 +43,7 @@ dict(
   ]),
   dict(h2="Le tableau comparatif des neuf contrats", id="tableau", body=[
    ("table",None),
-   ("img",dict(src="in-isr-1.svg",alt="Part de supports labellisés dans les gammes comparées",cap="La part de gamme labellisée va de moins de 15 % à la totalité selon les contrats, pour une promesse commerciale souvent identique.")),
+   ("img",dict(src="in-isr-1.jpg",alt="Éoliennes dans un paysage agricole",cap="La part de gamme labellisée va de moins de 15 % à la totalité selon les contrats, pour une promesse commerciale souvent identique.")),
    ("p","Une précision de méthode : nous comptons la part labellisée en nombre de supports, pas en encours. Un contrat peut afficher une majorité d'encours dans des fonds labellisés simplement parce que son fonds en euros y est classé, sans que l'épargnant ait le moindre choix supplémentaire en unités de compte."),
   ]),
   dict(h2="Ce que garantit chaque label", id="labels", body=[
@@ -83,8 +83,8 @@ dict(
   ("Quels placements écologiques pour épargner sans financer le fossile ?","Les fonds labellisés Greenfin sont les seuls à exclure explicitement les énergies fossiles dans leur cahier des charges. Pour les autres, il faut lire la politique d'exclusion de la société de gestion, fonds par fonds."),
   ("Les fonds responsables rapportent-ils moins ?","Sur les catégories équivalentes, les écarts relevés sont dispersés dans les deux sens et ne dessinent pas de pénalité structurelle. L'écart déterminant reste celui des frais courants, à comparer support par support."),
  ],
- related=[("epargne-responsable","isr-2.svg","Labels","Label ISR, Greenfin, Finansol : ce que chacun garantit vraiment"),
-          ("assurance-vie","une.svg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
-          ("per-retraite","per-1.svg","Retraite","Meilleur PER 2026 : le comparatif de 12 plans d'épargne retraite")],
+ related=[("epargne-responsable","isr-2.jpg","Labels","Label ISR, Greenfin, Finansol : ce que chacun garantit vraiment"),
+          ("assurance-vie","une.jpg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
+          ("per-retraite","per-1.jpg","Retraite","Meilleur PER 2026 : le comparatif de 12 plans d'épargne retraite")],
 ),
 ]

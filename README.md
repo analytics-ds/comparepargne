@@ -2,7 +2,8 @@
 
 Média comparateur indépendant de l'assurance vie, du PER et de l'épargne longue.
 Site statique, sans dépendance ni build : les pages HTML sont générées par des
-scripts Python et servies telles quelles.
+scripts Python et servies telles quelles. Titres en Bricolage Grotesque, texte en Inter,
+photographies Unsplash.
 
 Construit sur le modèle du média Comparamode, avec le corpus GGVIE (50 mots-clés,
 5 clusters, relevés ChatGPT / Gemini / AI Overviews de `AO/ggvie-geo`) comme carte
@@ -18,7 +19,9 @@ Construit sur le modèle du média Comparamode, avec le corpus GGVIE (50 mots-cl
 | `a-propos/`, `mentions-legales/` | Pages fixes |
 | `assets/css/site.css` | Feuille de style unique |
 | `assets/js/site.js` | Zoom du hero, bandeau défilant, header au scroll |
-| `assets/img/`, `assets/logos/`, `assets/logo/` | Visuels SVG générés, signatures des assureurs, logo du site |
+| `assets/img/*.jpg` | Photographies Unsplash, téléchargées par `gen_photos.py` |
+| `assets/img/sub-*.svg`, `assets/logos/`, `assets/logo/` | Icônes, signatures typographiques des assureurs, logo du site (`gen_assets.py`) |
+| `sources_photos.json` | Une entrée par visuel : URL source, dimensions, recadrage, lien de crédit |
 
 ## Régénérer le site
 
@@ -27,7 +30,7 @@ python3 build_all.py       # accueil + catégories + articles + pages fixes + si
 ```
 
 Ou script par script : `build_home.py`, `build_categories.py`, `build_articles.py`,
-`build_pages.py`, `build_sitemap.py`. Les visuels se régénèrent avec `gen_assets.py`.
+`build_pages.py`, `build_sitemap.py`. Les photos se retéléchargent avec `python3 gen_photos.py`, le vectoriel avec `python3 gen_assets.py`.
 
 Le contenu des articles vit dans `contenus_*.py`, une rubrique par fichier, assemblés
 par `contenus.py`. `common.py` porte l'en-tête, le menu, le pied de page et la mention
@@ -45,8 +48,10 @@ l'article correspondant n'existe pas, ce qui évite les liens morts.
 3. **Remplacer les signatures d'assureurs** de `assets/logos/` par les logos officiels si
    les droits sont obtenus, ou les conserver telles quelles : ce sont de simples
    signatures typographiques produites par `gen_assets.py`.
-4. **Compléter les mentions légales** : éditeur, directeur de publication, hébergeur, contact.
-5. **Mettre `SITE` dans `common.py`** sur le domaine définitif, puis `python3 build_all.py`.
+4. **Vérifier les crédits photo.** Les photographies viennent d'Unsplash et sont utilisées
+   sous licence Unsplash. `sources_photos.json` garde le lien vers chaque photo d'origine.
+5. **Compléter les mentions légales** : éditeur, directeur de publication, hébergeur, contact.
+6. **Mettre `SITE` dans `common.py`** sur le domaine définitif, puis `python3 build_all.py`.
 
 ## Développement local
 

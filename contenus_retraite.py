@@ -10,7 +10,7 @@ dict(
  desc="Quel est le meilleur PER individuel en 2026 ? Frais de versement, frais de gestion, coût du mandat en gestion pilotée par horizon, gamme de supports et conditions de sortie : 12 plans d'épargne retraite comparés.",
  kicker="Classement", h1="Meilleur PER 2026",
  lead="Douze plans d'épargne retraite individuels comparés sur ce qui décide réellement du capital à l'arrivée : les frais empilés sur toute la durée, la qualité de la grille de désensibilisation et la souplesse à la sortie. L'écart de frais entre un PER bancaire et un PER en ligne dépasse souvent l'avantage fiscal d'une année de versements.",
- img="per-1.svg", img_alt="Trajectoire d'épargne retraite par horizon",
+ img="per-1.jpg", img_alt="Retraités assis face à un lac de montagne",
  date="2026-09-12", date_fr="12 septembre 2026", reading="11", nb="12 PER", nb_label="comparés",
  brief_answer="Sur nos relevés, <b>Linxea PER</b> obtient la meilleure note du panel (<b>8,5/10</b>) : aucun frais sur versement, des frais de gestion à 0,60 % et un mandat parmi les moins chers. <b>Groupama PER</b> arrive en tête des PER accompagnés (<b>8,0/10</b>) avec une grille de désensibilisation lisible et un point annuel avec un conseiller. Les PER bancaires restent les plus coûteux du panel, avec des frais de versement encore pratiqués.",
  brief=[
@@ -45,7 +45,7 @@ dict(
   ]),
   dict(h2="Le tableau comparatif des 12 PER", id="tableau", body=[
    ("table",None),
-   ("img",dict(src="in-per-1.svg",alt="Effet des frais sur un capital retraite à long terme",cap="Sur vingt ans de versements, l'écart de frais entre le PER le moins cher et le PER bancaire moyen représente plusieurs dizaines de milliers d'euros de capital final.")),
+   ("img",dict(src="in-per-1.jpg",alt="Promeneur dans un champ au coucher du soleil",cap="Sur vingt ans de versements, l'écart de frais entre le PER le moins cher et le PER bancaire moyen représente plusieurs dizaines de milliers d'euros de capital final.")),
    ("p","Les frais de versement méritent une attention particulière sur un PER, parce qu'ils s'appliquent à chaque versement pendant toute la phase d'épargne, et non une seule fois comme sur un versement unique d'assurance vie. Trois pour cent prélevés sur 300 € par mois pendant vingt ans représentent 2 160 € qui ne travailleront jamais."),
   ]),
   dict(h2="Ce que le PER vous fait vraiment gagner", id="fiscal", body=[
@@ -94,9 +94,9 @@ dict(
   ("Peut-on sortir d'un PER en capital ?","Oui, en une fois ou de façon fractionnée pour la part issue des versements volontaires. Le fractionnement est presque toujours préférable, parce qu'il évite de faire basculer une année de revenus dans une tranche supérieure."),
   ("Peut-on avoir plusieurs PER ?","Oui, sans limite. Le plafond de déduction, lui, est commun à tous vos versements de l'année, tous plans confondus, et s'apprécie au niveau du foyer fiscal."),
  ],
- related=[("per-retraite","per-3.svg","Arbitrage","PER ou assurance vie : lequel choisir pour préparer sa retraite"),
-          ("rendement-frais","rend-3.svg","Gestion pilotée","Gestion pilotée : quelle assurance vie choisir quand on ne veut pas gérer"),
-          ("assurance-vie","une.svg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats")],
+ related=[("per-retraite","per-3.jpg","Arbitrage","PER ou assurance vie : lequel choisir pour préparer sa retraite"),
+          ("rendement-frais","rend-3.jpg","Gestion pilotée","Gestion pilotée : quelle assurance vie choisir quand on ne veut pas gérer"),
+          ("assurance-vie","une.jpg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats")],
 ),
 
 # ======================= 2. PER OU ASSURANCE VIE =========================== #
@@ -106,7 +106,7 @@ dict(
  desc="PER ou assurance vie pour préparer sa retraite en 2026 ? Déduction à l'entrée, imposition à la sortie, disponibilité des fonds, transmission : les deux enveloppes comparées et la règle de décision selon votre tranche d'imposition.",
  kicker="Comparatif", h1="PER ou assurance vie pour préparer sa retraite",
  lead="Le PER déduit à l'entrée et impose à la sortie, l'assurance vie fait exactement l'inverse. Tout le reste découle de là : la disponibilité des fonds, le traitement au décès et la règle de décision, qui tient à l'écart entre votre tranche d'aujourd'hui et celle de votre retraite.",
- img="per-3.svg", img_alt="Deux trajectoires de préparation à la retraite",
+ img="per-3.jpg", img_alt="Couple de retraités marchant enlacés sur une route",
  date="2026-09-11", date_fr="11 septembre 2026", reading="9", nb="2 enveloppes", nb_label="comparées",
  brief_answer="Le <b>PER</b> a un intérêt à partir de la tranche marginale à <b>30 %</b>, et d'autant plus que votre tranche baissera à la retraite : la déduction immédiate compense le blocage des fonds. En dessous, l'<b>assurance vie</b> reste préférable parce qu'elle laisse le capital disponible à tout moment et qu'elle offre un régime de transmission que le PER n'égale pas. Les deux se cumulent très bien : PER pour la part que vous ne toucherez pas, assurance vie pour le reste.",
  brief=[
@@ -139,7 +139,7 @@ dict(
   ]),
   dict(h2="Le tableau comparatif poste par poste", id="tableau", body=[
    ("table",None),
-   ("img",dict(src="in-per-2.svg",alt="Comparaison de deux stratégies de préparation à la retraite",cap="Deux stratégies, un même effort d'épargne. L'écart final se joue moins sur le rendement que sur l'écart de tranche entre la période d'activité et la retraite.")),
+   ("img",dict(src="in-per-2.jpg",alt="Couple de retraités marchant sur un ponton en bois",cap="Deux stratégies, un même effort d'épargne. L'écart final se joue moins sur le rendement que sur l'écart de tranche entre la période d'activité et la retraite.")),
   ]),
   dict(h2="La règle de décision, tranche par tranche", id="regle", body=[
    ("h3","Tranche à 0 % ou 11 %"),
@@ -174,8 +174,8 @@ dict(
   ("Le PER est-il intéressant si je ne paie pas d'impôt ?","Non. La déduction ne produit aucune économie et le blocage des fonds reste entier. Dans cette situation, l'assurance vie remplit le même rôle sans la contrainte."),
   ("Que devient un PER au décès ?","Le PER assurantiel suit un régime propre, dont les règles dépendent de l'âge du titulaire au décès. Il ne reprend pas à l'identique le régime de l'assurance vie, ce qui justifie de ne pas concentrer toute son épargne sur un PER quand la transmission est un objectif."),
  ],
- related=[("per-retraite","per-1.svg","Classement","Meilleur PER 2026 : le comparatif de 12 plans d'épargne retraite"),
-          ("assurance-vie","une.svg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
-          ("fiscalite-succession","fisc-1.svg","Fiscalité","Fiscalité de l'assurance vie en 2026 : ce que vous payez vraiment à chaque retrait")],
+ related=[("per-retraite","per-1.jpg","Classement","Meilleur PER 2026 : le comparatif de 12 plans d'épargne retraite"),
+          ("assurance-vie","une.jpg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
+          ("fiscalite-succession","fisc-1.jpg","Fiscalité","Fiscalité de l'assurance vie en 2026 : ce que vous payez vraiment à chaque retrait")],
 ),
 ]

@@ -10,7 +10,7 @@ dict(
  desc="Quelle est la meilleure assurance vie en 2026 ? Nous avons comparé 16 contrats sur le rendement servi par leur fonds en euros, les frais lus dans les conditions générales, le nombre de supports accessibles et le montant du premier versement. Classement et verdict.",
  kicker="Classement", h1="Meilleure assurance vie 2026",
  lead="Seize contrats passés au crible : le taux servi par chaque fonds en euros sur trois exercices, les cinq lignes de frais relevées dans les conditions générales, la largeur réelle de la gamme de supports et le montant exigé au premier versement. Le contrat le mieux noté n'est pas le plus rentable, c'est le moins coûteux.",
- img="une.svg", img_alt="Courbe d'épargne qui progresse sur fond vert",
+ img="une.jpg", img_alt="Rendez-vous entre une conseillère et un épargnant autour d'un contrat",
  date="2026-09-16", date_fr="16 septembre 2026", reading="12", nb="16 contrats", nb_label="comparés",
  brief_answer="Il n'existe pas une meilleure assurance vie pour tout le monde, mais un meilleur contrat par usage. Pour un épargnant autonome, <b>Linxea Spirit 2</b> obtient la meilleure note de notre panel (<b>8,6/10</b>) grâce à l'absence de frais sur versement et à la largeur de sa gamme. Pour qui veut un conseiller en face de soi, <b>Groupama Modulation</b> arrive en tête des contrats distribués en réseau (<b>8,0/10</b>). Pour le seul fonds en euros, <b>MACSF RES</b> sert le rendement le plus élevé du panel.",
  brief=[
@@ -49,7 +49,7 @@ dict(
   dict(h2="Le tableau comparatif des 16 contrats", id="tableau", body=[
    ("p","Chaque ligne reprend les chiffres du document contractuel, pas ceux de la page commerciale. C'est important : les frais d'arbitrage et les frais de sortie en rente n'apparaissent presque jamais sur une plaquette."),
    ("table",None),
-   ("img",dict(src="in-av-1.svg",alt="Représentation graphique de l'écart de frais entre deux contrats",cap="Sur huit ans, l'écart de frais entre le contrat le moins cher et le contrat bancaire moyen dépasse le rendement d'une année pleine de fonds en euros.")),
+   ("img",dict(src="in-av-1.jpg",alt="Mains prenant des notes devant un ordinateur portable",cap="Les frais se lisent dans les conditions générales, jamais sur la page commerciale. C'est la seule ligne du contrat que vous maîtrisez entièrement le jour de la signature.")),
    ("p","Trois enseignements ressortent. D'abord, les frais sur versement ont presque disparu en ligne et se maintiennent en agence, où ils restent négociables : un contrat annoncé à 3 % se signe souvent à 1 % ou à 0 % quand on le demande. Ensuite, le nombre de supports n'est pas un critère en soi, mille supports mal documentés valent moins que deux cents fonds dont les frais courants sont affichés. Enfin, le ticket d'entrée n'est plus un obstacle : la moitié du panel s'ouvre à 300 € ou moins."),
   ]),
   dict(h2="Ce que coûtent vraiment les frais sur huit ans", id="frais", body=[
@@ -72,7 +72,7 @@ dict(
     "<b>Horizon supérieur à huit ans</b> : au-delà de 50 % d'unités de compte, la question n'est plus le rendement espéré mais votre capacité à ne pas vendre pendant une baisse",
     "<b>Dans tous les cas</b> : vérifiez les frais courants de chaque support choisi, ils s'ajoutent aux frais de gestion du contrat",
    ]),
-   ("img",dict(src="in-av-2.svg",alt="Trois trajectoires d'épargne selon la part d'unités de compte",cap="Trois profils d'allocation, trois trajectoires. Plus la part d'unités de compte augmente, plus l'écart entre le meilleur et le pire scénario se creuse.")),
+   ("img",dict(src="in-av-2.jpg",alt="Tirelire entourée de pièces de monnaie",cap="La part d'unités de compte se décide sur la durée pendant laquelle vous pouvez laisser l'argent travailler, pas sur le rendement espéré.")),
   ]),
   dict(h2="Quel contrat pour quel profil", id="profils", body=[
    ("h3","Vous voulez gérer vous-même et payer le moins possible"),
@@ -97,9 +97,9 @@ dict(
   ("Faut-il ouvrir son assurance vie dans une banque ou chez un assureur ?","Le circuit change surtout le niveau de frais. Les contrats en ligne ne prélèvent plus rien sur les versements, les contrats distribués en agence retiennent souvent 2 à 3 %, négociables. En contrepartie, le réseau apporte un interlocuteur, utile au moment de la clause bénéficiaire et de la succession."),
   ("Peut-on avoir plusieurs assurances vie ?","Oui, sans limite. Ouvrir un deuxième contrat permet de prendre date sur une autre gamme de supports ou chez un autre assureur. L'abattement fiscal après huit ans s'apprécie toutefois par foyer fiscal, tous contrats confondus, pas par contrat."),
  ],
- related=[("rendement-frais","rend-1.svg","Fonds en euros","Meilleur fonds en euros 2026 : les rendements servis, contrat par contrat"),
-          ("rendement-frais","rend-2.svg","Frais","Frais d'assurance vie : le comparatif ligne par ligne des 16 contrats"),
-          ("assurance-vie","av-2.svg","Débuter","Où ouvrir une assurance vie quand on débute : banque, assureur ou courtier")],
+ related=[("rendement-frais","rend-1.jpg","Fonds en euros","Meilleur fonds en euros 2026 : les rendements servis, contrat par contrat"),
+          ("rendement-frais","rend-2.jpg","Frais","Frais d'assurance vie : le comparatif ligne par ligne des 16 contrats"),
+          ("assurance-vie","av-2.jpg","Débuter","Où ouvrir une assurance vie quand on débute : banque, assureur ou courtier")],
 ),
 # ===================== 2. OU OUVRIR QUAND ON DEBUTE ======================== #
 dict(
@@ -108,7 +108,7 @@ dict(
  desc="Où ouvrir une assurance vie quand on débute en 2026 ? Nous avons comparé les trois circuits de souscription sur le premier versement, les frais d'entrée, le délai d'ouverture, le choix des supports et la présence d'un conseiller. Le tableau et la marche à suivre.",
  kicker="Guide", h1="Où ouvrir une assurance vie quand on débute",
  lead="Banque de réseau, assureur traditionnel ou courtier en ligne : les trois circuits ne vendent pas le même contrat, ne prélèvent pas les mêmes frais et n'exigent pas le même premier versement. Voici ce qui les sépare, et par quoi commencer quand c'est votre premier contrat.",
- img="av-2.svg", img_alt="Trois trajectoires d'épargne comparées",
+ img="av-2.jpg", img_alt="Famille de trois générations réunie en extérieur",
  date="2026-09-15", date_fr="15 septembre 2026", reading="9", nb="3 circuits", nb_label="comparés",
  brief_answer="Pour un premier contrat, le <b>courtier en ligne</b> est le circuit le moins coûteux : aucun frais sur les versements, des frais de gestion autour de 0,50 à 0,75 % et une ouverture à 100 à 500 €. Le <b>réseau bancaire ou l'assureur</b> garde un intérêt si vous voulez un interlocuteur identifié, notamment pour la clause bénéficiaire, à condition de faire tomber les frais d'entrée à la signature. Dans tous les cas, ouvrez le contrat tôt, même avec 100 € : l'antériorité fiscale de huit ans court à partir de l'ouverture.",
  brief=[
@@ -139,7 +139,7 @@ dict(
   dict(h2="Le tableau comparatif des trois circuits", id="tableau", body=[
    ("table",None),
    ("p","L'écart de frais d'entrée est le point le plus visible, mais il n'est pas le plus coûteux. Trois pour cent prélevés une fois sur un versement de 10 000 €, c'est 300 €. Un quart de point de frais de gestion supplémentaire sur le même montant pendant vingt ans, c'est plus du double."),
-   ("img",dict(src="in-av-1.svg",alt="Comparaison de deux trajectoires d'épargne selon les frais",cap="À rendement identique, l'écart de frais entre deux circuits se lit surtout après dix ans, quand l'effet cumulé prend le pas sur le prélèvement initial.")),
+   ("img",dict(src="in-av-1.jpg",alt="Mains prenant des notes devant un ordinateur portable",cap="Trois pour cent de frais d'entrée prélevés une seule fois coûtent moins cher qu'un quart de point de frais annuels pendant vingt ans.")),
   ]),
   dict(h2="Ouvrir son premier contrat en cinq étapes", id="etapes", body=[
    ("ol",[
@@ -173,9 +173,9 @@ dict(
   ("Peut-on ouvrir une assurance vie avec un petit montant puis verser plus tard ?","Oui, et c'est souvent la bonne stratégie. Le compteur fiscal des huit ans démarre à l'ouverture du contrat, quel que soit le montant versé ce jour-là."),
   ("Peut-on transférer une assurance vie d'un assureur à un autre ?","Non, un contrat ne se transfère pas d'un assureur à un autre en conservant son antériorité. Le transfert n'est possible qu'au sein du même assureur, vers un contrat plus récent, sous conditions."),
  ],
- related=[("assurance-vie","une.svg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
-          ("assurance-vie","av-3.svg","Épargne","Assurance vie ou Livret A : où placer son épargne en 2026"),
-          ("rendement-frais","rend-2.svg","Frais","Frais d'assurance vie : le comparatif ligne par ligne des 16 contrats")],
+ related=[("assurance-vie","une.jpg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
+          ("assurance-vie","av-3.jpg","Épargne","Assurance vie ou Livret A : où placer son épargne en 2026"),
+          ("rendement-frais","rend-2.jpg","Frais","Frais d'assurance vie : le comparatif ligne par ligne des 16 contrats")],
 ),
 
 # ===================== 3. ASSURANCE VIE OU LIVRET A ========================= #
@@ -185,7 +185,7 @@ dict(
  desc="Assurance vie ou Livret A en 2026 ? Disponibilité, plafond, rendement, fiscalité et risque : les deux placements comparés poste par poste sur un même versement de 20 000 €, avec la règle de répartition qui en découle.",
  kicker="Comparatif", h1="Assurance vie ou Livret A : où placer son épargne",
  lead="Les deux placements ne jouent pas le même rôle. Le Livret A est une réserve disponible et défiscalisée mais plafonnée, l'assurance vie est une enveloppe de long terme, sans plafond, dont la fiscalité s'allège avec le temps. Voici comment les articuler plutôt que de les opposer.",
- img="av-3.svg", img_alt="Deux trajectoires d'épargne comparées",
+ img="av-3.jpg", img_alt="Piles de pièces de monnaie alignées par hauteur",
  date="2026-09-13", date_fr="13 septembre 2026", reading="8", nb="2 placements", nb_label="comparés",
  brief_answer="Les deux, dans cet ordre. Le <b>Livret A</b> sert à loger l'épargne de précaution, trois à six mois de dépenses courantes, parce qu'elle est disponible immédiatement et totalement défiscalisée. L'<b>assurance vie</b> prend le relais au-delà, parce qu'elle n'a pas de plafond, qu'elle donne accès à des supports plus rémunérateurs et que sa fiscalité s'allège après huit ans. Placer 20 000 € sur un seul des deux est une erreur dans les deux sens.",
  brief=[
@@ -229,7 +229,7 @@ dict(
            ["Long terme","6 000 €","Unités de compte du contrat","Horizon supérieur à huit ans, volatilité acceptée"]],
      note="Exemple pédagogique, à ajuster selon la situation familiale, les revenus et la tolérance au risque. Ce n'est pas une recommandation personnalisée.")),
    ("p","Le raisonnement tient en une phrase : on ne place jamais en unités de compte un euro dont on peut avoir besoin dans les trois ans, et on ne laisse jamais dormir sur un livret un euro dont on est sûr de ne pas avoir besoin avant dix ans."),
-   ("img",dict(src="in-av-2.svg",alt="Répartition d'une épargne entre trois poches",cap="Trois poches, trois horizons. La répartition se décide sur la date à laquelle vous aurez besoin de l'argent, pas sur le rendement affiché.")),
+   ("img",dict(src="in-av-2.jpg",alt="Tirelire entourée de pièces de monnaie",cap="Trois poches, trois horizons. La répartition se décide sur la date à laquelle vous aurez besoin de l'argent, pas sur le rendement affiché.")),
   ]),
   dict(h2="Le vrai départage : la transmission", id="transmission", body=[
    ("p","C'est le point où la comparaison cesse d'être serrée. Au décès, le solde d'un Livret A entre dans la succession et suit les règles de droit commun. Le capital d'une assurance vie, lui, est versé aux bénéficiaires désignés dans la clause, avec un régime fiscal qui lui est propre et un abattement par bénéficiaire pour les primes versées avant 70 ans."),
@@ -248,9 +248,9 @@ dict(
   ("Faut-il vider son Livret A pour alimenter une assurance vie ?","Non. Conservez sur le livret l'équivalent de trois à six mois de dépenses courantes. C'est l'excédent, celui qui dort sans objectif, qui gagne à rejoindre un contrat d'assurance vie."),
   ("Peut-on cumuler Livret A et assurance vie ?","Oui, sans limite ni interaction fiscale entre les deux. La très grande majorité des épargnants détient les deux, et c'est la combinaison qui a le plus de sens."),
  ],
- related=[("assurance-vie","une.svg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
-          ("rendement-frais","rend-1.svg","Fonds en euros","Meilleur fonds en euros 2026 : les rendements servis, contrat par contrat"),
-          ("fiscalite-succession","fisc-1.svg","Fiscalité","Fiscalité de l'assurance vie en 2026 : ce que vous payez vraiment à chaque retrait")],
+ related=[("assurance-vie","une.jpg","Classement","Meilleure assurance vie 2026 : le comparatif de 16 contrats"),
+          ("rendement-frais","rend-1.jpg","Fonds en euros","Meilleur fonds en euros 2026 : les rendements servis, contrat par contrat"),
+          ("fiscalite-succession","fisc-1.jpg","Fiscalité","Fiscalité de l'assurance vie en 2026 : ce que vous payez vraiment à chaque retrait")],
 ),
 
 ]

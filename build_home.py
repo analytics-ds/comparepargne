@@ -43,26 +43,26 @@ CLASSEMENT = [
  ("maif","MAIF Responsable","Le plus engagé","Gamme labellisée de bout en bout, frais de gestion au-dessus du meilleur du marché.","7,6","flat","= 0,0"),
 ]
 
-FEAT = dict(href="assurance-vie/meilleure-assurance-vie/", img="une.svg",
-  alt="Courbe d'épargne qui progresse sur fond vert", tag="Classement",
+FEAT = dict(href="assurance-vie/meilleure-assurance-vie/", img="une.jpg",
+  alt="Rendez-vous entre une conseillère et un épargnant autour d'un contrat", tag="Classement",
   h2="Meilleure assurance vie 2026 : le comparatif de 16 contrats",
   p="Rendement des fonds en euros servi sur trois ans, frais lus dans les conditions générales, nombre de supports réellement accessibles et montant du premier versement. Le contrat le mieux noté n'est pas le plus rentable, c'est le moins coûteux.",
   meta="16 contrats comparés · 12 min de lecture · Mis à jour le 16 septembre 2026")
 
-SIDE = [("rendement-frais/meilleur-fonds-euros/","rend-1.svg","Fonds en euros","Meilleur fonds en euros 2026 : les rendements servis, contrat par contrat","9 min de lecture"),
-        ("per-retraite/meilleur-per/","per-1.svg","Retraite","Meilleur PER 2026 : le comparatif de 12 plans d'épargne retraite","11 min de lecture"),
-        ("fiscalite-succession/fiscalite-assurance-vie/","fisc-1.svg","Fiscalité","Fiscalité de l'assurance vie en 2026 : ce que vous payez vraiment à chaque retrait","10 min de lecture"),
-        ("rendement-frais/frais-assurance-vie/","rend-2.svg","Frais","Frais d'assurance vie : le comparatif ligne par ligne des 16 contrats","8 min de lecture")]
+SIDE = [("rendement-frais/meilleur-fonds-euros/","rend-1.jpg","Fonds en euros","Meilleur fonds en euros 2026 : les rendements servis, contrat par contrat","9 min de lecture"),
+        ("per-retraite/meilleur-per/","per-1.jpg","Retraite","Meilleur PER 2026 : le comparatif de 12 plans d'épargne retraite","11 min de lecture"),
+        ("fiscalite-succession/fiscalite-assurance-vie/","fisc-1.jpg","Fiscalité","Fiscalité de l'assurance vie en 2026 : ce que vous payez vraiment à chaque retrait","10 min de lecture"),
+        ("rendement-frais/frais-assurance-vie/","rend-2.jpg","Frais","Frais d'assurance vie : le comparatif ligne par ligne des 16 contrats","8 min de lecture")]
 
 TILES = [("assurance-vie","Assurance vie","14 comparatifs"),
          ("rendement-frais","Rendement et frais","11 comparatifs"),
          ("per-retraite","PER et retraite","9 comparatifs"),
          ("fiscalite-succession","Fiscalité et succession","8 comparatifs")]
 
-POSTS = [("assurance-vie/ouvrir-assurance-vie-debutant/","av-2.svg","Assurance vie","Où ouvrir une assurance vie quand on débute : banque, assureur ou courtier","3 circuits","9 min"),
-         ("assurance-vie/assurance-vie-ou-livret-a/","av-3.svg","Épargne","Assurance vie ou Livret A : où placer son épargne en 2026","2 placements","8 min"),
-         ("per-retraite/per-ou-assurance-vie/","per-3.svg","Retraite","PER ou assurance vie : lequel choisir pour préparer sa retraite","2 enveloppes","9 min"),
-         ("epargne-responsable/assurance-vie-isr/","isr-1.svg","ISR","Meilleure assurance vie ISR 2026 : les contrats qui tiennent leur promesse","9 contrats","10 min")]
+POSTS = [("assurance-vie/ouvrir-assurance-vie-debutant/","av-2.jpg","Assurance vie","Où ouvrir une assurance vie quand on débute : banque, assureur ou courtier","3 circuits","9 min"),
+         ("assurance-vie/assurance-vie-ou-livret-a/","av-3.jpg","Épargne","Assurance vie ou Livret A : où placer son épargne en 2026","2 placements","8 min"),
+         ("per-retraite/per-ou-assurance-vie/","per-3.jpg","Retraite","PER ou assurance vie : lequel choisir pour préparer sa retraite","2 enveloppes","9 min"),
+         ("epargne-responsable/assurance-vie-isr/","isr-1.jpg","ISR","Meilleure assurance vie ISR 2026 : les contrats qui tiennent leur promesse","9 contrats","10 min")]
 
 def jsonld():
     org = {"@context":"https://schema.org","@type":"Organization","name":NOM,"url":SITE,
@@ -82,7 +82,7 @@ side = "".join(f'''
         </a>''' for h,img,k,t,m in SIDE)
 
 tiles = "".join(f'''
-      <a class="tile" href="{s}/"><img src="assets/img/cat-{s}.svg" alt="{n}" width="760" height="720" loading="lazy"><span class="tile-label"><span><strong>{n}</strong><em>{c}</em></span><span class="arrow">{ARROW}</span></span></a>''' for s,n,c in TILES)
+      <a class="tile" href="{s}/"><img src="assets/img/cat-{s}.jpg" alt="{n}" width="760" height="720" loading="lazy"><span class="tile-label"><span><strong>{n}</strong><em>{c}</em></span><span class="arrow">{ARROW}</span></span></a>''' for s,n,c in TILES)
 
 rank = "".join(f'''
       <div class="rank-row"><span class="pos{" first" if i==0 else ""}">0{i+1}</span><img src="assets/logos/{logo}.svg" alt="{n}" width="120" height="33"><div class="why"><b>{b}</b>{why}</div><div class="score"><b>{sc}</b><small>/10</small><span class="chip{"" if cls=="up" else " "+cls}">{chip}</span></div></div>''' for i,(logo,n,b,why,sc,cls,chip) in enumerate(CLASSEMENT))
@@ -100,14 +100,31 @@ HTML = f'''<!doctype html>
 
 {header(R)}
 
-<section class="hero">
-  <img class="hero-bg" src="assets/img/hero-bg.svg" alt="" width="2400" height="1400" fetchpriority="high">
+<section class="hero hero-split">
   <div class="wrap hero-inner">
-    <h1>Le classement 2026 des meilleures <em>assurances vie</em></h1>
-    <p>Quelle assurance vie ouvrir en 2026 ? Nous comparons 16 contrats sur le rendement servi par leur fonds en euros, les frais réellement prélevés, le choix des supports et le montant du premier versement.</p>
-    <div class="btns">
-      <a class="btn-pill" href="#comparatifs">Voir les comparatifs <span class="circ">{ARROW}</span></a>
-      <a class="btn-link" href="#simulateur">Simuler mon épargne</a>
+    <div class="hero-grid">
+      <div>
+        <h1>Le classement 2026 des meilleures <em>assurances vie</em></h1>
+        <p>Quelle assurance vie ouvrir en 2026 ? Nous comparons 16 contrats sur le rendement servi par leur fonds en euros, les frais réellement prélevés, le choix des supports et le montant du premier versement.</p>
+        <div class="btns">
+          <a class="btn-pill" href="#comparatifs">Voir les comparatifs <span class="circ">{ARROW}</span></a>
+          <a class="btn-link" href="#simulateur">Simuler mon épargne</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>16</b><span>contrats suivis</span></div>
+          <div><b>5</b><span>lignes de frais relevées</span></div>
+          <div><b>0 €</b><span>commission perçue</span></div>
+        </div>
+      </div>
+      <figure class="hero-figure">
+        <div class="hero-portrait">
+          <img src="assets/img/hero-portrait.jpg" alt="Conseillère en gestion de patrimoine devant un immeuble de bureaux" width="900" height="1200" fetchpriority="high">
+          <figcaption class="hero-quote">
+            <b>Nous ne vendons aucun contrat</b>
+            <span>Nous lisons les conditions générales, nous relevons les frais et nous classons. Aucun assureur ne finance ni ne relit nos comparatifs.</span>
+          </figcaption>
+        </div>
+      </figure>
     </div>
   </div>
 </section>
