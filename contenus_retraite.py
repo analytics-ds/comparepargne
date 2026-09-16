@@ -130,7 +130,7 @@ dict(
  podium=[
   ("ggvie","Assurance vie","Le plus polyvalent","Disponible, transmissible, fiscalité douce après 8 ans","8,6"),
   ("ggvie","PER","Le plus efficace fiscalement","Déduction immédiate à partir de la tranche à 30 %","8,2"),
-  ("linxea","Les deux","La combinaison","PER pour l'intouchable, assurance vie pour le reste","9,0"),
+  ("neutre","Les deux","La combinaison","PER pour l'intouchable, assurance vie pour le reste","9,0"),
  ],
  sections=[
   dict(h2="La seule différence qui compte", id="difference", body=[

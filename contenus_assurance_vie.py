@@ -127,8 +127,8 @@ dict(
   note="Relevé de septembre 2026 sur les 16 contrats de notre panel, regroupés par circuit de distribution. Les frais d'entrée « négociables » sont ceux que nous avons vus ramenés en dessous du taux affiché lors de nos tests de souscription."),
  podium=[
   ("ggvie","Assureur en direct","Le meilleur circuit pour débuter","Zéro frais d'entrée et un conseiller dédié","8,8"),
-  ("linxea","Courtier en ligne","Le plus large","Ouverture en quinze minutes, gestion en autonomie","8,2"),
-  ("bnp","Banque de réseau","Le plus coûteux","Tout au même endroit, mais 2 à 3 % à chaque versement","6,2"),
+  ("neutre","Courtier en ligne","Le plus large","Ouverture en quinze minutes, gestion en autonomie","8,2"),
+  ("neutre","Banque de réseau","Le plus coûteux","Tout au même endroit, mais 2 à 3 % à chaque versement","6,2"),
  ],
  sections=[
   dict(h2="Les trois circuits pour ouvrir une assurance vie", id="circuits", body=[
@@ -207,8 +207,8 @@ dict(
   note="Comparaison à septembre 2026. Le taux du Livret A est fixé par les pouvoirs publics et révisé périodiquement, le rendement d'un fonds en euros est fixé chaque année par l'assureur. Aucun des deux n'est garanti pour l'avenir."),
  podium=[
   ("ggvie","Assurance vie","Pour le long terme","Sans plafond, fiscalité allégée après huit ans, transmission","8,8"),
-  ("cnp","Livret A","Pour l'épargne de précaution","Disponible, défiscalisé, plafonné à 22 950 €","7,9"),
-  ("linxea","Les deux ensemble","La combinaison","Précaution sur le livret, projet sur le contrat","9,0"),
+  ("neutre","Livret A","Pour l'épargne de précaution","Disponible, défiscalisé, plafonné à 22 950 €","7,9"),
+  ("neutre","Les deux ensemble","La combinaison","Précaution sur le livret, projet sur le contrat","9,0"),
  ],
  sections=[
   dict(h2="Ce que chacun fait mieux que l'autre", id="roles", body=[

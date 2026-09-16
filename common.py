@@ -17,7 +17,21 @@ CATS = {
  "epargne-responsable":  dict(menu="Épargne responsable", nom="Épargne responsable"),
 }
 
-LOGO_EXT = {"ggvie": "png"}  # le logo du client est fourni en PNG, les autres sont des signatures SVG
+import os as _os
+
+def _logo_exts():
+    """Extension reelle de chaque logo present dans assets/logos."""
+    d = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "assets", "logos")
+    out = {}
+    for f in _os.listdir(d):
+        slug, ext = _os.path.splitext(f)
+        if ext in (".svg", ".png", ".jpg") and "@" not in slug:
+            out.setdefault(slug, ext.lstrip("."))
+            if ext != ".svg":
+                out[slug] = ext.lstrip(".")
+    return out
+
+LOGO_EXT = _logo_exts()  # vrais logos des assureurs, en SVG ou en PNG selon la source
 
 def logo_src(R, slug):
     """Chemin du logo d'un assureur depuis la profondeur R."""

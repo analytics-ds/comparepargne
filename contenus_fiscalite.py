@@ -31,7 +31,7 @@ dict(
  podium=[
   ("ggvie","Après 8 ans","La fiscalité la plus douce","Abattement annuel et taux réduit à 7,5 %","9,0"),
   ("ggvie","Rachat fractionné","La bonne méthode","Plusieurs retraits étalés plutôt qu'un seul","8,2"),
-  ("cnp","Avant 8 ans","Pas dramatique","30 % sur la seule part de gains","6,0"),
+  ("neutre","Avant 8 ans","Pas dramatique","30 % sur la seule part de gains","6,0"),
  ],
  sections=[
   dict(h2="La règle de base : seuls les gains sont imposés", id="regle", body=[
@@ -119,7 +119,7 @@ dict(
  podium=[
   ("ggvie","Clause nominative","La plus sûre","Chacun reçoit exactement la part écrite","8,5"),
   ("ggvie","Clause démembrée","La plus protectrice","Usufruit au conjoint, nue-propriété aux enfants","8,0"),
-  ("generali","Clause à options","La plus souple","Le bénéficiaire choisit au dénouement","7,5"),
+  ("neutre","Clause à options","La plus souple","Le bénéficiaire choisit au dénouement","7,5"),
  ],
  sections=[
   dict(h2="Ce que fait exactement une clause bénéficiaire", id="role", body=[

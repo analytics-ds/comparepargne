@@ -20,7 +20,8 @@ Construit sur le modèle du média Comparamode, avec le corpus GGVIE (50 mots-cl
 | `assets/css/site.css` | Feuille de style unique |
 | `assets/js/site.js` | Zoom du hero, bandeau défilant, header au scroll |
 | `assets/img/*.jpg` | Photographies Unsplash, téléchargées par `gen_photos.py` |
-| `assets/img/sub-*.svg`, `assets/logos/`, `assets/logo/` | Icônes, signatures typographiques des assureurs, logo du site (`gen_assets.py`) |
+| `assets/logos/` | Logos officiels des assureurs + `neutre.svg`, origines dans `sources_logos.json` |
+| `assets/img/sub-*.svg`, `assets/logo/` | Icônes et logo du site (`gen_assets.py`) |
 | `sources_photos.json` | Une entrée par visuel : URL source, dimensions, recadrage, lien de crédit |
 
 ## Régénérer le site
@@ -49,9 +50,12 @@ l'article correspondant n'existe pas, ce qui évite les liens morts.
    dans les conditions générales avant toute publication.
 3. **Vérifier les règles fiscales à la date de publication** (abattements, taux du
    prélèvement forfaitaire, taux des prélèvements sociaux, seuil de 150 000 €).
-4. **Remplacer les signatures d'assureurs** de `assets/logos/` par les logos officiels si
-   les droits sont obtenus, ou les conserver telles quelles : ce sont de simples
-   signatures typographiques produites par `gen_assets.py`.
+4. **Logos des assureurs.** `assets/logos/` contient les logos officiels, récupérés sur
+   Wikimedia Commons ou sur le site de chaque marque, avec leur origine dans
+   `sources_logos.json`. Ils sont reproduits pour identifier les contrats comparés.
+   `neutre.svg` sert aux lignes génériques (Livret A, contrat bancaire moyen) qui ne
+   doivent porter le logo d'aucune marque réelle. Le logo GGVIE est affiché en couleur,
+   les concurrents en niveaux de gris.
 5. **Vérifier les crédits photo.** Les photographies viennent d'Unsplash et sont utilisées
    sous licence Unsplash. `sources_photos.json` garde le lien vers chaque photo d'origine.
 6. **Compléter les mentions légales** : éditeur, directeur de publication, hébergeur, contact.

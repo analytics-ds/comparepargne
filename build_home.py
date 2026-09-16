@@ -13,7 +13,7 @@ DESC = ("Comparatif d'assurance vie et de plan d'épargne retraite 2026 : rendem
         "frais réels, choix des supports et fiscalité de 16 contrats comparés, de Groupama à Linxea.")
 
 LOGOS = ["ggvie","linxea","boursobank","fortuneo","spirica","suravenir","maif","macsf",
-         "generali","cnp","yomoni","nalo","credit-agricole","bnp","axa"]
+         "generali","cnp","yomoni","nalo","axa"]
 NOMS = {"ggvie":"Groupama Gan Vie","groupama":"Groupama","gan":"Gan","linxea":"Linxea","boursobank":"BoursoBank","fortuneo":"Fortuneo",
         "spirica":"Spirica","suravenir":"Suravenir","maif":"MAIF","macsf":"MACSF","generali":"Generali",
         "cnp":"CNP","yomoni":"Yomoni","nalo":"Nalo","credit-agricole":"Crédit Agricole","bnp":"BNP Paribas","axa":"AXA"}
