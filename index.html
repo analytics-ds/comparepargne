@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comparateur d'assurance vie et de PER 2026 : le classement des meilleurs contrats</title>
+<meta name="description" content="Comparateur indépendant d'assurance vie et de plan d'épargne retraite 2026 : rendement des fonds en euros, frais réels, choix des supports et fiscalité de 16 contrats comparés, de Groupama à Linxea.">
+<link rel="canonical" href="https://analytics-ds.github.io/comparepargne/">
+<meta property="og:site_name" content="Comparépargne">
+<meta property="og:title" content="Comparateur d'assurance vie et de PER 2026 : le classement des meilleurs contrats">
+<meta property="og:description" content="Comparateur indépendant d'assurance vie et de plan d'épargne retraite 2026 : rendement des fonds en euros, frais réels, choix des supports et fiscalité de 16 contrats comparés, de Groupama à Linxea.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0D1A14">
+<link rel="stylesheet" href="assets/css/site.css?v=1">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Comparépargne", "url": "https://analytics-ds.github.io/comparepargne", "description": "Le comparateur indépendant de l'assurance vie, du PER et de l'épargne longue.", "logo": "https://analytics-ds.github.io/comparepargne/assets/logo/logo.svg"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Comparépargne", "url": "https://analytics-ds.github.io/comparepargne", "inLanguage": "fr-FR"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "Classement des contrats d'épargne", "itemListOrder": "https://schema.org/ItemListOrderDescending", "numberOfItems": 5, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Linxea Spirit 2", "description": "Note 8,6/10. Le meilleur contrat en ligne. Zéro frais de versement, plus de 1 000 supports, gestion libre exigeante."}, {"@type": "ListItem", "position": 2, "name": "Groupama Modulation", "description": "Note 8,0/10. Le meilleur contrat accompagné. Fonds en euros solide, conseiller en agence, souscription dès 300 €."}, {"@type": "ListItem", "position": 3, "name": "BoursoVie", "description": "Note 8,2/10. Le plus simple à ouvrir. Ouverture en dix minutes, frais bas, gamme de supports plus courte."}, {"@type": "ListItem", "position": 4, "name": "MACSF RES", "description": "Note 7,8/10. Le meilleur fonds en euros. Rendement servi le plus élevé du panel, mais une gamme d'UC limitée."}, {"@type": "ListItem", "position": 5, "name": "MAIF Responsable", "description": "Note 7,6/10. Le plus engagé. Gamme labellisée de bout en bout, frais de gestion au-dessus du meilleur du marché."}]}</script>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="./" aria-label="Comparépargne, accueil"><img class="l-light" src="assets/logo/logo-light.svg" alt="Comparépargne" width="620" height="133"><img class="l-dark" src="assets/logo/logo.svg" alt="" aria-hidden="true" width="620" height="133"></a>
+    <ul class="menu">
+      <li><a href="assurance-vie/">Assurance vie</a></li>
+      <li><a href="rendement-frais/">Rendement</a></li>
+      <li><a href="fiscalite-succession/">Fiscalité</a></li>
+      <li><a href="per-retraite/">Retraite</a></li>
+      <li><a href="epargne-responsable/">Épargne responsable</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="iconbtn" href="#outil" aria-label="Rechercher"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M16 16l5 5"/></svg></a>
+      <a class="btn btn-dark" href="#outil">Comparer 2 contrats</a>
+      <button class="burger" aria-label="Menu"><svg width="22" height="14" viewBox="0 0 22 14" fill="none" stroke="#111" stroke-width="1.7"><path d="M0 1h22M0 7h22M0 13h22"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <img class="hero-bg" src="assets/img/hero-bg.svg" alt="" width="2400" height="1400" fetchpriority="high">
+  <div class="wrap hero-inner">
+    <h1>Le classement 2026 des meilleures <em>assurances vie</em></h1>
+    <p>Quelle assurance vie ouvrir en 2026 ? Nous comparons 16 contrats sur le rendement servi par leur fonds en euros, les frais réellement prélevés, le choix des supports et le montant du premier versement.</p>
+    <div class="btns">
+      <a class="btn-pill" href="#comparatifs">Voir les comparatifs <span class="circ"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      <a class="btn-link" href="#simulateur">Simuler mon épargne</a>
+    </div>
+  </div>
+</section>
+
+<section class="brands" id="assureurs">
+  <div class="brands-head">Les assureurs et les contrats que nous suivons chaque trimestre</div>
+  <div class="marquee"><div class="marquee-track" id="logoTrack"><img src="assets/logos/groupama.svg" alt="Groupama"><img src="assets/logos/gan.svg" alt="Gan"><img src="assets/logos/linxea.svg" alt="Linxea"><img src="assets/logos/boursobank.svg" alt="BoursoBank"><img src="assets/logos/fortuneo.svg" alt="Fortuneo"><img src="assets/logos/spirica.svg" alt="Spirica"><img src="assets/logos/suravenir.svg" alt="Suravenir"><img src="assets/logos/maif.svg" alt="MAIF"><img src="assets/logos/macsf.svg" alt="MACSF"><img src="assets/logos/generali.svg" alt="Generali"><img src="assets/logos/cnp.svg" alt="CNP"><img src="assets/logos/yomoni.svg" alt="Yomoni"><img src="assets/logos/nalo.svg" alt="Nalo"><img src="assets/logos/credit-agricole.svg" alt="Crédit Agricole"><img src="assets/logos/bnp.svg" alt="BNP Paribas"><img src="assets/logos/axa.svg" alt="AXA"></div></div>
+</section>
+
+<section class="featured" id="comparatifs">
+  <div class="wrap">
+    <div class="section-head">
+      <div><h2>Le comparatif d'épargne du mois</h2></div>
+      <a class="btn btn-ghost" href="#derniers">Tous les comparatifs</a>
+    </div>
+    <div class="feat-grid">
+      <a class="feat-main" href="assurance-vie/meilleure-assurance-vie/">
+        <img src="assets/img/une.svg" alt="Courbe d'épargne qui progresse sur fond vert" width="1300" height="860">
+        <div class="feat-body">
+          <span class="tag">Classement</span>
+          <h2>Meilleure assurance vie 2026 : le comparatif de 16 contrats</h2>
+          <p>Rendement des fonds en euros servi sur trois ans, frais lus dans les conditions générales, nombre de supports réellement accessibles et montant du premier versement. Le contrat le mieux noté n'est pas le plus rentable, c'est le moins coûteux.</p>
+          <span class="feat-meta">16 contrats comparés · 12 min de lecture · Mis à jour le 16 septembre 2026</span>
+        </div>
+      </a>
+      <div class="feat-side">
+        <a class="side-item" href="rendement-frais/meilleur-fonds-euros/">
+          <img src="assets/img/rend-1.svg" alt="" width="96" height="80" loading="lazy">
+          <div><span class="eyebrow">Fonds en euros</span><h3>Meilleur fonds en euros 2026 : les rendements servis, contrat par contrat</h3><small>9 min de lecture</small></div>
+        </a>
+        <a class="side-item" href="per-retraite/meilleur-per/">
+          <img src="assets/img/per-1.svg" alt="" width="96" height="80" loading="lazy">
+          <div><span class="eyebrow">Retraite</span><h3>Meilleur PER 2026 : le comparatif de 12 plans d'épargne retraite</h3><small>11 min de lecture</small></div>
+        </a>
+        <a class="side-item" href="fiscalite-succession/fiscalite-assurance-vie/">
+          <img src="assets/img/fisc-1.svg" alt="" width="96" height="80" loading="lazy">
+          <div><span class="eyebrow">Fiscalité</span><h3>Fiscalité de l'assurance vie en 2026 : ce que vous payez vraiment à chaque retrait</h3><small>10 min de lecture</small></div>
+        </a>
+        <a class="side-item" href="rendement-frais/frais-assurance-vie/">
+          <img src="assets/img/rend-2.svg" alt="" width="96" height="80" loading="lazy">
+          <div><span class="eyebrow">Frais</span><h3>Frais d'assurance vie : le comparatif ligne par ligne des 16 contrats</h3><small>8 min de lecture</small></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tool" id="outil">
+  <div class="wrap">
+    <div class="tool-card">
+      <div class="tool-intro">
+        <h2>Comparez deux contrats d'épargne en un clic</h2>
+        <p>Choisissez deux contrats, nous affichons leurs notes sur nos cinq critères, calculées à partir des rendements publiés et des frais lus dans les conditions générales.</p>
+        <div class="selects">
+          <div class="select"><select id="brandA" aria-label="Premier contrat"></select></div>
+          <span class="vs">VS</span>
+          <div class="select"><select id="brandB" aria-label="Second contrat"></select></div>
+        </div>
+        <p class="tool-note">Notes sur 10 établies sur nos relevés de septembre 2026. Les performances passées ne préjugent pas des performances futures.</p>
+      </div>
+      <div class="compare">
+        <div class="cmp-head"><span>Critère</span><b id="nameA"></b><b id="nameB"></b></div>
+        <div id="rows"></div>
+        <div class="verdict"><b id="verdict"></b><span id="verdictSub"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tool" id="simulateur" style="padding-top:0">
+  <div class="wrap">
+    <div class="tool-card">
+      <div class="tool-intro">
+        <h2>Combien votre épargne rapporte-t-elle sur huit ans ?</h2>
+        <p>Le capital de départ, l'effort mensuel, la durée et le rendement annuel moyen. Nous calculons le capital atteint, les intérêts produits et le total versé, avant fiscalité.</p>
+        <div class="sim-grid">
+          <div><label for="simCap">Capital de départ</label><input id="simCap" type="number" value="10000" min="0" step="500"></div>
+          <div><label for="simMens">Versement mensuel</label><input id="simMens" type="number" value="200" min="0" step="10"></div>
+          <div><label for="simDur">Durée (années)</label><input id="simDur" type="number" value="8" min="1" max="40"></div>
+        </div>
+        <div class="sim-grid" style="grid-template-columns:1fr 1fr">
+          <div><label for="simTaux">Rendement annuel moyen</label><input id="simTaux" type="number" value="3" min="0" max="12" step="0.1"></div>
+          <div><label for="simFrais">Frais de gestion annuels</label><input id="simFrais" type="number" value="0.7" min="0" max="3" step="0.05"></div>
+        </div>
+        <p class="tool-note">Calcul à rendement constant, frais de gestion déduits chaque année, hors prélèvements sociaux et hors impôt. Un fonds en euros ne garantit pas un rendement futur et une unité de compte peut perdre de la valeur.</p>
+      </div>
+      <div class="compare">
+        <div class="sim-out">
+          <div class="sim-card"><span>Capital atteint</span><b class="num" id="outCap">–</b></div>
+          <div class="sim-card"><span>Total versé</span><b class="num" id="outVers">–</b></div>
+          <div class="sim-card"><span>Intérêts produits</span><b class="num" id="outInt">–</b></div>
+        </div>
+        <div class="sim-out" style="grid-template-columns:1fr">
+          <div class="sim-card"><span>Ce que les frais vous coûtent sur la période</span><b class="num" id="outFrais">–</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cats" id="categories">
+  <div class="wrap">
+    <div class="section-head">
+      <div><h2>Nos comparatifs par sujet</h2><p>Le bon contrat dépend de ce que vous cherchez : un rendement, une fiscalité, une transmission ou une retraite.</p></div>
+    </div>
+    <div class="grid4">
+      <a class="tile" href="assurance-vie/"><img src="assets/img/cat-assurance-vie.svg" alt="Assurance vie" width="760" height="720" loading="lazy"><span class="tile-label"><span><strong>Assurance vie</strong><em>14 comparatifs</em></span><span class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span></a>
+      <a class="tile" href="rendement-frais/"><img src="assets/img/cat-rendement-frais.svg" alt="Rendement et frais" width="760" height="720" loading="lazy"><span class="tile-label"><span><strong>Rendement et frais</strong><em>11 comparatifs</em></span><span class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span></a>
+      <a class="tile" href="per-retraite/"><img src="assets/img/cat-per-retraite.svg" alt="PER et retraite" width="760" height="720" loading="lazy"><span class="tile-label"><span><strong>PER et retraite</strong><em>9 comparatifs</em></span><span class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span></a>
+      <a class="tile" href="fiscalite-succession/"><img src="assets/img/cat-fiscalite-succession.svg" alt="Fiscalité et succession" width="760" height="720" loading="lazy"><span class="tile-label"><span><strong>Fiscalité et succession</strong><em>8 comparatifs</em></span><span class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span></a>
+    </div>
+  </div>
+</section>
+
+<section class="ranking" id="classement">
+  <div class="wrap rank-grid">
+    <div class="rank-intro">
+      <h2>Les contrats d'épargne les mieux notés en septembre 2026</h2>
+      <p>Note globale sur 10, moyenne pondérée de nos cinq critères. Le classement bouge à chaque publication de rendement et à chaque mise à jour des conditions générales.</p>
+      <a class="btn btn-dark" href="#methode">Voir la méthode de notation</a>
+    </div>
+    <div class="rank-list">
+      <div class="rank-row"><span class="pos first">01</span><img src="assets/logos/linxea.svg" alt="Linxea Spirit 2" width="120" height="33"><div class="why"><b>Le meilleur contrat en ligne</b>Zéro frais de versement, plus de 1 000 supports, gestion libre exigeante.</div><div class="score"><b>8,6</b><small>/10</small><span class="chip">▲ +0,2</span></div></div>
+      <div class="rank-row"><span class="pos">02</span><img src="assets/logos/groupama.svg" alt="Groupama Modulation" width="120" height="33"><div class="why"><b>Le meilleur contrat accompagné</b>Fonds en euros solide, conseiller en agence, souscription dès 300 €.</div><div class="score"><b>8,0</b><small>/10</small><span class="chip">▲ +0,3</span></div></div>
+      <div class="rank-row"><span class="pos">03</span><img src="assets/logos/boursobank.svg" alt="BoursoVie" width="120" height="33"><div class="why"><b>Le plus simple à ouvrir</b>Ouverture en dix minutes, frais bas, gamme de supports plus courte.</div><div class="score"><b>8,2</b><small>/10</small><span class="chip flat">= 0,0</span></div></div>
+      <div class="rank-row"><span class="pos">04</span><img src="assets/logos/macsf.svg" alt="MACSF RES" width="120" height="33"><div class="why"><b>Le meilleur fonds en euros</b>Rendement servi le plus élevé du panel, mais une gamme d'UC limitée.</div><div class="score"><b>7,8</b><small>/10</small><span class="chip">▲ +0,1</span></div></div>
+      <div class="rank-row"><span class="pos">05</span><img src="assets/logos/maif.svg" alt="MAIF Responsable" width="120" height="33"><div class="why"><b>Le plus engagé</b>Gamme labellisée de bout en bout, frais de gestion au-dessus du meilleur du marché.</div><div class="score"><b>7,6</b><small>/10</small><span class="chip flat">= 0,0</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="posts" id="derniers">
+  <div class="wrap">
+    <div class="section-head">
+      <div><h2>Derniers comparatifs publiés</h2></div>
+      <a class="btn btn-ghost" href="assurance-vie/">Tous les comparatifs</a>
+    </div>
+    <div class="grid4">
+      <a class="post" href="assurance-vie/ouvrir-assurance-vie-debutant/"><img src="assets/img/av-2.svg" alt="" width="800" height="560" loading="lazy"><div class="post-body"><span class="eyebrow">Assurance vie</span><h3>Où ouvrir une assurance vie quand on débute : banque, assureur ou courtier</h3><span class="meta">3 circuits <i></i> 9 min</span></div></a>
+      <a class="post" href="assurance-vie/assurance-vie-ou-livret-a/"><img src="assets/img/av-3.svg" alt="" width="800" height="560" loading="lazy"><div class="post-body"><span class="eyebrow">Épargne</span><h3>Assurance vie ou Livret A : où placer son épargne en 2026</h3><span class="meta">2 placements <i></i> 8 min</span></div></a>
+      <a class="post" href="per-retraite/per-ou-assurance-vie/"><img src="assets/img/per-3.svg" alt="" width="800" height="560" loading="lazy"><div class="post-body"><span class="eyebrow">Retraite</span><h3>PER ou assurance vie : lequel choisir pour préparer sa retraite</h3><span class="meta">2 enveloppes <i></i> 9 min</span></div></a>
+      <a class="post" href="epargne-responsable/assurance-vie-isr/"><img src="assets/img/isr-1.svg" alt="" width="800" height="560" loading="lazy"><div class="post-body"><span class="eyebrow">ISR</span><h3>Meilleure assurance vie ISR 2026 : les contrats qui tiennent leur promesse</h3><span class="meta">9 contrats <i></i> 10 min</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="method" id="methode">
+  <div class="wrap">
+    <div class="method-head">
+      <h2>Comment nous comparons les contrats d'épargne</h2>
+      <p>Aucun assureur ne finance nos comparatifs, aucun ne les relit avant publication et nous ne vendons aucun contrat. Tout part de documents publics, vérifiables un par un.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="n">01</span><h3>Nous lisons les conditions générales</h3><p>Frais de versement, de gestion, d'arbitrage et de sortie en rente, ligne par ligne, sur le document contractuel et non sur la page commerciale.</p></div>
+      <div class="step"><span class="n">02</span><h3>Nous reprenons les rendements publiés</h3><p>Le taux servi par chaque fonds en euros, net de frais de gestion et brut de prélèvements sociaux, sur les trois derniers exercices.</p></div>
+      <div class="step"><span class="n">03</span><h3>Nous testons le parcours réel</h3><p>Montant du premier versement, délai d'ouverture, disponibilité d'un conseiller et délai de versement d'un rachat partiel.</p></div>
+    </div>
+    <div class="disclosure"><b>Information, pas conseil.</b> Les chiffres publiés ici sont des relevés de marché, mis à jour à la date indiquée sous chaque tableau. Ils ne préjugent pas des performances futures et ne constituent pas une recommandation personnalisée. Les rendements des fonds en euros sont nets de frais de gestion et bruts de prélèvements sociaux, les unités de compte présentent un risque de perte en capital.</div>
+  </div>
+</section>
+
+<section class="news" id="newsletter">
+  <div class="wrap">
+    <div class="news-card">
+      <div>
+        <h2>Recevez chaque comparatif d'épargne avant tout le monde</h2>
+        <p>Un email par mois : les rendements servis dès leur publication, les hausses de frais repérées dans les conditions générales et les nouveaux comparatifs.</p>
+      </div>
+      <div>
+        <form class="form" onsubmit="return false">
+          <input type="email" placeholder="Votre adresse email" aria-label="Adresse email" required>
+          <button class="btn btn-accent" type="submit">Je m'inscris</button>
+        </form>
+        <p class="form-note">Pas de publicité, pas de revente de fichier, désinscription en un clic.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand"><a class="logo" href="./" aria-label="Comparépargne, accueil"><img src="assets/logo/logo.svg" alt="Comparépargne" width="620" height="133" loading="lazy"></a><p>Le comparateur indépendant de l'assurance vie, du PER et de l'épargne longue. Nous relevons, nous comparons, nous classons. Nous ne vendons aucun contrat.</p></div>
+      <div><h4>Comparatifs</h4><ul><li><a href="assurance-vie/">Assurance vie</a></li><li><a href="rendement-frais/">Rendement et frais</a></li><li><a href="fiscalite-succession/">Fiscalité et succession</a></li><li><a href="per-retraite/">PER et retraite</a></li><li><a href="epargne-responsable/">Épargne responsable</a></li></ul></div>
+      <div><h4>Outils</h4><ul><li><a href="#outil">Comparer deux contrats</a></li><li><a href="#simulateur">Simulateur d'épargne</a></li><li><a href="#classement">Le classement du mois</a></li><li><a href="#methode">Notre méthode</a></li></ul></div>
+      <div><h4>À propos</h4><ul><li><a href="#methode">Comment nous comparons</a></li><li><a href="a-propos/">Qui sommes-nous</a></li><li><a href="a-propos/#corrections">Signaler une erreur</a></li><li><a href="mentions-legales/">Mentions légales</a></li></ul></div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 Comparépargne. Comparateur indépendant de l'épargne longue.</span><span>Information non contractuelle, ne constitue pas un conseil en investissement.</span></div>
+  </div>
+</footer>
+
+<script src="assets/js/site.js?v=1"></script>
+<script>
+(function(){
+  var contrats={"Groupama Modulation": [8.2, 7.4, 7.6, 8.4, 8.0], "Gan Patrimoine": [8.0, 7.1, 7.9, 7.6, 7.7], "Linxea Spirit 2": [7.6, 9.2, 9.4, 8.8, 8.6], "BoursoVie": [7.0, 8.8, 8.2, 9.0, 8.2], "Fortuneo Vie": [7.2, 8.6, 8.0, 8.6, 8.0], "MAIF Responsable": [7.4, 7.8, 6.8, 8.2, 7.6], "MACSF RES": [8.6, 7.6, 6.4, 7.4, 7.8], "Contrat bancaire moyen": [5.8, 4.6, 5.4, 7.8, 5.9]};
+  var crits=[["Fonds en euros", "rendement servi sur trois ans"], ["Frais", "versement, gestion, arbitrage"], ["Choix des supports", "nombre et qualité des unités de compte"], ["Accessibilité", "versement minimum, souscription, service"], ["Note globale", "moyenne pondérée"]];
+  var A=document.getElementById('brandA'),B=document.getElementById('brandB');
+  Object.keys(contrats).forEach(function(n){A.add(new Option(n,n));B.add(new Option(n,n));});
+  A.value="Groupama Modulation";B.value="Linxea Spirit 2";
+  function fmt(v){return v.toFixed(1).replace('.',',');}
+  function render(){
+    var a=A.value,b=B.value,ra=contrats[a],rb=contrats[b],wins=0,rows='';
+    document.getElementById('nameA').textContent=a;document.getElementById('nameB').textContent=b;
+    crits.forEach(function(c,i){
+      var va=ra[i],vb=rb[i],wa=va>vb,wb=vb>va; if(i<4&&wa)wins++;
+      rows+='<div class="cmp-row"><div class="crit">'+c[0]+'<small>'+c[1]+'</small></div>'
+        +'<div class="bar'+(wa?' win':'')+'"><div class="track"><div class="fill" style="width:'+(va*10)+'%"></div></div><span class="val">'+fmt(va)+'</span></div>'
+        +'<div class="bar'+(wb?' win':'')+'"><div class="track"><div class="fill" style="width:'+(vb*10)+'%"></div></div><span class="val">'+fmt(vb)+'</span></div></div>';
+    });
+    document.getElementById('rows').innerHTML=rows;
+    var v=document.getElementById('verdict'),s=document.getElementById('verdictSub');
+    if(a===b){v.textContent='Choisissez deux contrats différents';s.textContent='';return;}
+    var lead=ra[4]>rb[4]?a:rb[4]>ra[4]?b:null;
+    v.textContent=lead?lead+' l\u2019emporte':'Égalité parfaite';
+    s.textContent=lead?(lead===a?wins:4-wins)+' critères sur 4, note globale '+fmt(lead===a?ra[4]:rb[4])+' contre '+fmt(lead===a?rb[4]:ra[4]):'Même note globale sur nos relevés';
+  }
+  A.addEventListener('change',render);B.addEventListener('change',render);render();
+})();
+(function(){
+  var ids=['simCap','simMens','simDur','simTaux','simFrais'],el={};
+  ids.forEach(function(i){el[i]=document.getElementById(i);});
+  if(!el.simCap)return;
+  var eur=new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:0});
+  function calc(){
+    var c=+el.simCap.value||0,m=+el.simMens.value||0,n=Math.max(1,+el.simDur.value||1),
+        t=(+el.simTaux.value||0)/100,f=(+el.simFrais.value||0)/100;
+    var net=Math.pow(1+t,1/12)-1, fm=Math.pow(1-f,1/12)-1, r=net+fm;
+    var cap=c, brut=c, rb=Math.pow(1+t,1/12)-1;
+    for(var i=0;i<n*12;i++){cap=cap*(1+r)+m; brut=brut*(1+rb)+m;}
+    var verse=c+m*n*12;
+    document.getElementById('outCap').textContent=eur.format(cap);
+    document.getElementById('outVers').textContent=eur.format(verse);
+    document.getElementById('outInt').textContent=eur.format(cap-verse);
+    document.getElementById('outFrais').textContent=eur.format(brut-cap);
+  }
+  ids.forEach(function(i){el[i].addEventListener('input',calc);});calc();
+})();
+</script>
+</body>
+</html>
