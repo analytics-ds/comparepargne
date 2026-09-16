@@ -496,3 +496,13 @@ h1,h2,h3,h4{line-height:1.06}
   .hero-quote{display:none}
   .hero-split h1{max-width:100%}
 }
+
+/* ---------- logo GGVIE : jamais desature, jamais recolorise ---------- */
+img[src$="ggvie.png"]{filter:none !important;opacity:1 !important}
+.rank-row img[src$="ggvie.png"],.pod img[src$="ggvie.png"],.aside-win img[src$="ggvie.png"]{height:30px;max-width:150px}
+.marquee-track img[src$="ggvie.png"]{height:34px;max-width:170px}
+.pod.first{background:var(--accent-soft);border:2px solid var(--accent);color:var(--ink)}
+.pod.first .rank{color:var(--accent)}
+.pod.first span{color:var(--muted)}
+.pod.first img{filter:none}
+.rank-row.client{background:#fff;border-color:var(--accent);box-shadow:0 10px 30px rgba(14,159,110,.12)}

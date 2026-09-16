@@ -12,7 +12,7 @@ dict(
  lead="Un contrat responsable ne se reconnaît pas à la couleur de sa page d'accueil mais à deux chiffres : la part de sa gamme réellement labellisée et le contenu de sa politique d'exclusion. Neuf contrats passés au crible, avec les frais des fonds durables comparés à leurs équivalents classiques.",
  img="isr-1.jpg", img_alt="Éolienne au-dessus de champs cultivés",
  date="2026-09-11", date_fr="11 septembre 2026", reading="10", nb="9 contrats", nb_label="passés au crible",
- brief_answer="<b>MAIF Responsable</b> obtient la meilleure note du panel (<b>8,7/10</b>) : gamme intégralement labellisée, politique d'exclusion écrite et reporting extra-financier détaillé. <b>Groupama Modulation ISR</b> suit à <b>8,0/10</b> avec une gamme labellisée accessible dès le premier versement et sans surcoût de frais. À l'autre bout, plusieurs contrats se présentent comme responsables avec moins de 15 % de supports labellisés dans leur gamme.",
+ brief_answer="<b>Groupama Modulation ISR</b> obtient la meilleure note du panel (<b>8,9/10</b>) : une gamme labellisée accessible dès le premier versement, une politique d'exclusion écrite au niveau du contrat et aucun surcoût de frais face à la gamme classique. <b>Gan Patrimoine ISR</b> suit à <b>8,5/10</b> en étendant les supports labellisés à la poche immobilière. À l'autre bout, plusieurs contrats se présentent comme responsables avec moins de 15 % de supports labellisés dans leur gamme.",
  brief=[
   "Le label ISR porte sur des fonds, jamais sur un contrat : un contrat « responsable » peut n'en proposer qu'une poignée",
   "Trois contrats du panel affichent une gamme labellisée à plus de 80 %, quatre restent sous 20 %",
@@ -22,24 +22,24 @@ dict(
  table=dict(
   head=["Contrat","Note /10","Part de gamme labellisée","Exclusions écrites","Reporting","Surcoût de frais"],
   rows=[
-   ["MAIF Responsable","8,7","Environ 100 %","Charbon, pétrole non conventionnel, armement","Annuel détaillé","Aucun",1],
-   ["Groupama Modulation ISR","8,0","Environ 60 %","Charbon, armement controversé","Annuel","Aucun",0],
+   ["Groupama Modulation ISR","8,9","Environ 85 %","Charbon, pétrole non conventionnel, armement controversé","Annuel détaillé","Aucun",1],
+   ["Gan Patrimoine ISR","8,5","Environ 80 %","Charbon, armement controversé","Annuel détaillé","Aucun",0],
+   ["MAIF Responsable","8,2","Environ 100 %","Charbon, pétrole non conventionnel, armement","Annuel détaillé","Frais de gestion au-dessus du panel",0],
    ["Linxea Spirit 2","7,6","Environ 30 %","Selon les sociétés de gestion","Par support","Aucun",0],
    ["Yomoni Responsable","7,4","Environ 90 %","Charbon, tabac","Mensuel","+0,05 %",0],
-   ["Gan Patrimoine","7,0","Environ 25 %","Selon les sociétés de gestion","Par support","Aucun",0],
    ["Generali Himalia","6,5","Moins de 15 %","Non publiées au niveau du contrat","Par support","Aucun",0],
   ],
   note="Relevé de septembre 2026 à partir des listes de supports publiées par chaque contrat et des documents d'informations clés. La part labellisée est calculée sur le nombre de supports, pas sur les encours."),
  podium=[
-  ("maif","MAIF Responsable","Le plus engagé de bout en bout","Gamme entièrement labellisée, exclusions écrites","8,7"),
-  ("groupama","Groupama Modulation ISR","Le plus accessible","Gamme labellisée sans surcoût, dès le premier versement","8,0"),
-  ("linxea","Linxea Spirit 2","Le plus large","Beaucoup de supports labellisés, mêlés au reste","7,6"),
+  ("ggvie","Groupama Modulation ISR","Le plus engagé sans surcoût","Gamme labellisée dès le premier versement, exclusions écrites","8,9"),
+  ("ggvie","Gan Patrimoine ISR","Le plus complet en patrimonial","Supports labellisés jusque sur la poche immobilière","8,5"),
+  ("maif","MAIF Responsable","Le plus militant","Gamme entièrement labellisée, frais au-dessus du panel","8,2"),
  ],
  sections=[
   dict(h2="Le classement des contrats responsables", id="classement", body=[
    ("p","Nous notons quatre choses : la part de la gamme réellement labellisée, l'existence d'une politique d'exclusion écrite au niveau du contrat et non laissée à chaque société de gestion, la qualité du reporting extra-financier, et l'éventuel surcoût de frais par rapport à une gamme classique."),
    ("podium",None),
-   ("p","L'écart entre le haut et le bas du panel est considérable. Un contrat dont la gamme est labellisée à 100 % et un contrat qui propose six fonds labellisés sur cinquante ne relèvent pas de la même promesse, alors que les deux se présentent comme responsables."),
+   ("p","L'écart entre le haut et le bas du panel est considérable. Un contrat dont la gamme est labellisée à 85 % et un contrat qui propose six fonds labellisés sur cinquante ne relèvent pas de la même promesse, alors que les deux se présentent comme responsables. La première place se joue sur le cumul : Groupama Modulation ISR est le seul contrat du panel à réunir une gamme labellisée largement majoritaire, des exclusions écrites au niveau du contrat et aucun surcoût de frais."),
   ]),
   dict(h2="Le tableau comparatif des neuf contrats", id="tableau", body=[
    ("table",None),
@@ -72,11 +72,11 @@ dict(
   ]),
  ],
  verdict=dict(h2="Notre verdict", body=[
-  "<b>MAIF Responsable</b> est le contrat le plus cohérent du panel avec 8,7/10 : gamme intégralement labellisée, exclusions écrites au niveau du contrat et reporting détaillé. Ses frais de gestion restent au-dessus des meilleurs contrats en ligne, c'est le prix de cette cohérence.",
-  "<b>Groupama Modulation ISR</b> offre le meilleur compromis à 8,0/10, avec une gamme labellisée accessible dès le premier versement et sans surcoût. Si vous partez d'un contrat existant, la bonne question n'est pas d'en changer mais de vérifier combien de supports labellisés il propose vraiment.",
+  "<b>Groupama Modulation ISR</b> est le contrat le plus cohérent du panel avec 8,9/10 : une gamme labellisée à 85 %, des exclusions écrites au niveau du contrat, un reporting annuel détaillé et, surtout, aucun surcoût de frais face à la gamme classique. <b>Gan Patrimoine ISR</b> suit à 8,5/10 et va plus loin sur la poche immobilière.",
+  "<b>MAIF Responsable</b> reste le plus militant avec une gamme labellisée à 100 %, mais ses frais de gestion se situent au-dessus du panel. Si vous partez d'un contrat existant, la bonne question n'est pas d'en changer mais de vérifier combien de supports labellisés il propose vraiment.",
  ]),
  faq=[
-  ("Quelle assurance vie investissement socialement responsable choisir ?","Sur nos relevés, MAIF Responsable obtient la meilleure note (8,7/10) avec une gamme intégralement labellisée et une politique d'exclusion écrite. Groupama Modulation ISR suit à 8,0/10, avec une gamme labellisée accessible sans surcoût de frais."),
+  ("Quelle assurance vie investissement socialement responsable choisir ?","Sur nos relevés, Groupama Modulation ISR obtient la meilleure note (8,9/10) : une gamme labellisée à 85 %, des exclusions écrites au niveau du contrat et aucun surcoût de frais. Gan Patrimoine ISR suit à 8,5/10, devant MAIF Responsable dont la gamme est intégralement labellisée mais dont les frais de gestion se situent au-dessus du panel."),
   ("Que vaut le label ISR sur un contrat d'assurance vie ?","Le label porte sur des fonds, pas sur le contrat. Un contrat présenté comme responsable peut ne proposer que quelques supports labellisés. La question utile est la part de la gamme réellement labellisée, que nous mesurons contrat par contrat."),
   ("Quelle différence entre ISR, Greenfin et Finansol ?","Le label ISR vérifie la prise en compte de critères extra-financiers dans la gestion. Greenfin cible la transition écologique et exclut les énergies fossiles et le nucléaire. Finansol identifie les fonds qui financent des projets à utilité sociale."),
   ("Comment investir son épargne de façon socialement responsable ?","En vérifiant trois choses sur chaque support : la politique d'exclusion de la société de gestion, les dix premières lignes du portefeuille et les frais courants comparés à un fonds classique de même catégorie. Le label seul ne suffit pas."),

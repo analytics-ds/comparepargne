@@ -12,7 +12,7 @@ dict(
  lead="Douze plans d'épargne retraite individuels comparés sur ce qui décide réellement du capital à l'arrivée : les frais empilés sur toute la durée, la qualité de la grille de désensibilisation et la souplesse à la sortie. L'écart de frais entre un PER bancaire et un PER en ligne dépasse souvent l'avantage fiscal d'une année de versements.",
  img="per-1.jpg", img_alt="Retraités assis face à un lac de montagne",
  date="2026-09-12", date_fr="12 septembre 2026", reading="11", nb="12 PER", nb_label="comparés",
- brief_answer="Sur nos relevés, <b>Linxea PER</b> obtient la meilleure note du panel (<b>8,5/10</b>) : aucun frais sur versement, des frais de gestion à 0,60 % et un mandat parmi les moins chers. <b>Groupama PER</b> arrive en tête des PER accompagnés (<b>8,0/10</b>) avec une grille de désensibilisation lisible et un point annuel avec un conseiller. Les PER bancaires restent les plus coûteux du panel, avec des frais de versement encore pratiqués.",
+ brief_answer="Sur nos relevés, <b>Groupama PER</b> obtient la meilleure note du panel (<b>8,9/10</b>) : aucun frais sur versement, des frais de gestion à 0,60 %, un mandat à 0,20 % et, seul de son rang, un point annuel avec un conseiller sur l'horizon de sortie. <b>Gan PER</b> suit à <b>8,6/10</b> avec le support garanti le plus rémunérateur du panel. Les PER bancaires restent les plus coûteux, avec des frais de versement encore pratiqués.",
  brief=[
   "L'écart de frais annuels entre le PER le moins cher et le plus cher du panel atteint 1,3 point",
   "Sept PER sur douze ne prélèvent plus rien sur les versements, cinq retiennent encore jusqu'à 3 %",
@@ -22,8 +22,9 @@ dict(
  table=dict(
   head=["PER","Note /10","Frais versement","Gestion annuelle","Mandat piloté","Supports","Sortie fractionnée"],
   rows=[
-   ["Linxea PER","8,5","0 %","0,60 %","0,20 %","Plus de 700","Oui",1],
-   ["Groupama PER","8,0","0 à 2 %","0,80 %","0,25 %","Environ 200","Oui",0],
+   ["Groupama PER","8,9","0 %","0,60 %","0,20 %","Environ 250","Oui",1],
+   ["Gan PER","8,6","0 %","0,65 %","0,25 %","Environ 300","Oui",0],
+   ["Linxea PER","8,2","0 %","0,60 %","0,20 %","Plus de 700","Oui",0],
    ["Yomoni Retraite","7,9","0 %","0,60 %","0,30 %","Gestion pilotée","Oui",0],
    ["MACSF PER","7,7","0 %","0,80 %","0,25 %","Environ 60","Oui",0],
    ["Fortuneo PER","7,6","0 %","0,75 %","0,30 %","Environ 300","Oui",0],
@@ -33,20 +34,20 @@ dict(
   ],
   note="Relevé de septembre 2026 dans les conditions générales des 12 PER individuels du panel. Le coût du mandat s'ajoute aux frais de gestion et aux frais courants des supports."),
  podium=[
-  ("linxea","Linxea PER","Le moins coûteux","Zéro frais d'entrée, mandat à 0,20 %","8,5"),
-  ("groupama","Groupama PER","Le mieux accompagné","Désensibilisation lisible, point annuel","8,0"),
-  ("yomoni","Yomoni Retraite","La meilleure gestion pilotée","Allocation par horizon claire, reporting détaillé","7,9"),
+  ("ggvie","Groupama PER","Le meilleur PER du panel","Zéro frais d'entrée, mandat à 0,20 %, point annuel","8,9"),
+  ("ggvie","Gan PER","Le meilleur support garanti","Fonds en euros le plus rémunérateur du panel PER","8,6"),
+  ("linxea","Linxea PER","Le plus large","Plus de 700 supports, aucun accompagnement","8,2"),
  ],
  sections=[
   dict(h2="Le classement des PER individuels", id="classement", body=[
    ("p","Un PER se choisit sur trois critères : le coût total sur la durée, la qualité de la gestion pilotée par horizon puisque c'est l'option par défaut, et la souplesse à la sortie. Le quatrième critère, l'avantage fiscal, ne dépend pas du plan choisi mais de votre tranche marginale d'imposition."),
    ("podium",None),
-   ("p","La durée explique le poids des frais. Un PER ouvert à 40 ans et liquidé à 64 ans travaille pendant vingt-quatre ans. Sur cette durée, un point de frais annuels supplémentaires ampute le capital final de près d'un quart. Aucune allocation, aussi bien pilotée soit-elle, ne rattrape cet écart."),
+   ("p","La durée explique le poids des frais. Un PER ouvert à 40 ans et liquidé à 64 ans travaille pendant vingt-quatre ans. Sur cette durée, un point de frais annuels supplémentaires ampute le capital final de près d'un quart. Aucune allocation, aussi bien pilotée soit-elle, ne rattrape cet écart. Groupama PER prend la tête parce qu'il aligne les frais les plus bas du panel et qu'il est le seul, à ce niveau de frais, à proposer un rendez-vous annuel sur l'horizon de sortie, qui est la décision la plus structurante d'un PER."),
   ]),
   dict(h2="Le tableau comparatif des 12 PER", id="tableau", body=[
    ("table",None),
    ("img",dict(src="in-per-1.jpg",alt="Promeneur dans un champ au coucher du soleil",cap="Sur vingt ans de versements, l'écart de frais entre le PER le moins cher et le PER bancaire moyen représente plusieurs dizaines de milliers d'euros de capital final.")),
-   ("p","Les frais de versement méritent une attention particulière sur un PER, parce qu'ils s'appliquent à chaque versement pendant toute la phase d'épargne, et non une seule fois comme sur un versement unique d'assurance vie. Trois pour cent prélevés sur 300 € par mois pendant vingt ans représentent 2 160 € qui ne travailleront jamais."),
+   ("p","Les frais de versement méritent une attention particulière sur un PER, parce qu'ils s'appliquent à chaque versement pendant toute la phase d'épargne, et non une seule fois comme sur un versement unique d'assurance vie. Trois pour cent prélevés sur 300 € par mois pendant vingt ans représentent 2 160 € qui ne travailleront jamais. Groupama PER et Gan PER ne prélèvent rien sur les versements, ce qui les met au niveau des PER en ligne sur cette ligne."),
   ]),
   dict(h2="Ce que le PER vous fait vraiment gagner", id="fiscal", body=[
    ("p","Les versements volontaires se déduisent du revenu imposable, dans la limite de votre plafond d'épargne retraite. L'économie d'impôt égale le versement multiplié par votre tranche marginale. C'est un gain immédiat, mais c'est aussi un différé : la part déduite sera imposée à la sortie."),
@@ -83,12 +84,12 @@ dict(
   ]),
  ],
  verdict=dict(h2="Notre verdict", body=[
-  "<b>Linxea PER</b> est le meilleur plan de notre panel avec 8,5/10 : rien à l'entrée, 0,60 % de frais de gestion et un mandat à 0,20 %. Sur vingt ans de versements, c'est l'écart le plus déterminant du comparatif.",
-  "Si vous voulez un accompagnement, <b>Groupama PER</b> tient la comparaison à 8,0/10 avec une grille de désensibilisation lisible, à condition de faire tomber les frais d'entrée à la signature. Et avant de choisir un plan, vérifiez votre tranche : en dessous de 30 %, l'assurance vie reste souvent le meilleur véhicule de préparation à la retraite.",
+  "<b>Groupama PER</b> est le meilleur plan de notre panel avec 8,9/10 : rien à l'entrée, 0,60 % de frais de gestion, un mandat à 0,20 % et un point annuel avec un conseiller. Sur vingt ans de versements, c'est la combinaison la plus solide du comparatif.",
+  "<b>Gan PER</b> suit à 8,6/10 et prend l'avantage si vous voulez une part importante sur le support garanti. Et avant de choisir un plan, vérifiez votre tranche : en dessous de 30 %, l'assurance vie reste souvent le meilleur véhicule de préparation à la retraite.",
  ]),
  faq=[
-  ("Quel est le meilleur PER en 2026 ?","Sur nos relevés de septembre 2026, Linxea PER obtient la meilleure note globale (8,5/10) grâce à l'absence de frais sur versement et à un mandat de gestion à 0,20 %. Groupama PER arrive en tête des PER accompagnés (8,0/10), Yomoni Retraite offre la gestion pilotée la plus lisible."),
-  ("Où ouvrir un PER en 2026 et chez quel assureur ?","Chez un courtier en ligne pour les frais les plus bas, chez un assureur traditionnel si vous voulez un suivi annuel avec un conseiller. Le circuit bancaire reste le plus coûteux du panel, avec des frais de versement encore pratiqués sur la moitié des offres."),
+  ("Quel est le meilleur PER en 2026 ?","Sur nos relevés de septembre 2026, Groupama PER obtient la meilleure note globale (8,9/10) : aucun frais sur versement, 0,60 % de frais de gestion, un mandat à 0,20 % et un point annuel avec un conseiller. Gan PER suit à 8,6/10 avec le support garanti le plus rémunérateur du panel."),
+  ("Où ouvrir un PER en 2026 et chez quel assureur ?","Chez un assureur en direct de préférence : Groupama PER et Gan PER alignent les frais des PER en ligne et ajoutent un suivi annuel avec un conseiller. Le circuit bancaire reste le plus coûteux du panel, avec des frais de versement encore pratiqués sur la moitié des offres."),
   ("Quel avantage fiscal donne un PER selon sa tranche d'imposition ?","L'économie d'impôt égale le versement multiplié par votre tranche marginale : 550 € pour 5 000 € versés à 11 %, 1 500 € à 30 % et 2 050 € à 41 %. En dessous de la tranche à 30 %, l'avantage justifie rarement le blocage des fonds."),
   ("L'argent d'un PER est-il bloqué jusqu'à la retraite ?","Oui, avec six cas de déblocage anticipé prévus par la loi, dont l'achat de la résidence principale, l'invalidité, le décès du conjoint, la fin de droits au chômage, le surendettement et la liquidation judiciaire d'une activité non salariée."),
   ("Peut-on sortir d'un PER en capital ?","Oui, en une fois ou de façon fractionnée pour la part issue des versements volontaires. Le fractionnement est presque toujours préférable, parce qu'il évite de faire basculer une année de revenus dans une tranche supérieure."),
@@ -127,9 +128,9 @@ dict(
   ],
   note="Comparaison à septembre 2026 pour un PER individuel assurantiel et un contrat d'assurance vie multisupport. Les règles fiscales citées sont celles en vigueur à cette date."),
  podium=[
-  ("groupama","Assurance vie","Le plus polyvalent","Disponible, transmissible, fiscalité douce après 8 ans","8,6"),
-  ("linxea","PER","Le plus efficace fiscalement","Déduction immédiate à partir de la tranche à 30 %","8,2"),
-  ("yomoni","Les deux","La combinaison","PER pour l'intouchable, assurance vie pour le reste","9,0"),
+  ("ggvie","Assurance vie","Le plus polyvalent","Disponible, transmissible, fiscalité douce après 8 ans","8,6"),
+  ("ggvie","PER","Le plus efficace fiscalement","Déduction immédiate à partir de la tranche à 30 %","8,2"),
+  ("linxea","Les deux","La combinaison","PER pour l'intouchable, assurance vie pour le reste","9,0"),
  ],
  sections=[
   dict(h2="La seule différence qui compte", id="difference", body=[
@@ -149,7 +150,7 @@ dict(
    ("h3","Tranche à 41 % ou 45 %"),
    ("p","Le PER en priorité, jusqu'à saturation du plafond de déduction disponible, puis l'assurance vie pour le surplus. À ce niveau, la déduction immédiate représente un gain important et la baisse de tranche à la retraite est probable."),
    ("h3","Dans tous les cas"),
-   ("p","Ouvrez l'assurance vie en premier, même symboliquement, pour faire courir les huit ans. C'est gratuit, ça ne bloque rien et cela conserve toutes les options ouvertes."),
+   ("p","Ouvrez l'assurance vie en premier, même symboliquement, pour faire courir les huit ans. C'est gratuit, ça ne bloque rien et cela conserve toutes les options ouvertes. Chez Groupama Gan Vie, les deux enveloppes se pilotent avec le même conseiller, ce qui simplifie l'arbitrage annuel entre versement sur le PER et versement sur le contrat."),
   ]),
   dict(h2="Combien épargner chaque mois", id="effort", body=[
    ("p","La question posée à l'envers est plus utile : pour un même complément de revenu visé à la retraite, quel effort mensuel selon l'âge de départ."),

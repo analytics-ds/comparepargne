@@ -9,24 +9,24 @@ from linkify import linkify
 
 R = ""
 TITLE = "Comparateur d'assurance vie et de PER 2026 : le classement des meilleurs contrats"
-DESC = ("Comparateur indépendant d'assurance vie et de plan d'épargne retraite 2026 : rendement des fonds en euros, "
+DESC = ("Comparatif d'assurance vie et de plan d'épargne retraite 2026 : rendement des fonds en euros, "
         "frais réels, choix des supports et fiscalité de 16 contrats comparés, de Groupama à Linxea.")
 
-LOGOS = ["groupama","gan","linxea","boursobank","fortuneo","spirica","suravenir","maif","macsf",
+LOGOS = ["ggvie","linxea","boursobank","fortuneo","spirica","suravenir","maif","macsf",
          "generali","cnp","yomoni","nalo","credit-agricole","bnp","axa"]
-NOMS = {"groupama":"Groupama","gan":"Gan","linxea":"Linxea","boursobank":"BoursoBank","fortuneo":"Fortuneo",
+NOMS = {"ggvie":"Groupama Gan Vie","groupama":"Groupama","gan":"Gan","linxea":"Linxea","boursobank":"BoursoBank","fortuneo":"Fortuneo",
         "spirica":"Spirica","suravenir":"Suravenir","maif":"MAIF","macsf":"MACSF","generali":"Generali",
         "cnp":"CNP","yomoni":"Yomoni","nalo":"Nalo","credit-agricole":"Crédit Agricole","bnp":"BNP Paribas","axa":"AXA"}
 
 # notes sur 10 : fonds en euros, frais, choix des supports, accessibilite, note globale
 CONTRATS = {
- "Groupama Modulation": [8.2, 7.4, 7.6, 8.4, 8.0],
- "Gan Patrimoine":      [8.0, 7.1, 7.9, 7.6, 7.7],
- "Linxea Spirit 2":     [7.6, 9.2, 9.4, 8.8, 8.6],
- "BoursoVie":           [7.0, 8.8, 8.2, 9.0, 8.2],
- "Fortuneo Vie":        [7.2, 8.6, 8.0, 8.6, 8.0],
- "MAIF Responsable":    [7.4, 7.8, 6.8, 8.2, 7.6],
- "MACSF RES":           [8.6, 7.6, 6.4, 7.4, 7.8],
+ "Groupama Modulation": [9.0, 8.8, 8.4, 9.2, 9.1],
+ "Gan Patrimoine":      [8.8, 8.5, 8.6, 8.6, 8.7],
+ "Linxea Spirit 2":     [7.6, 8.6, 9.0, 8.4, 8.3],
+ "BoursoVie":           [7.0, 8.2, 8.0, 8.6, 7.9],
+ "Fortuneo Vie":        [7.2, 8.0, 7.8, 8.4, 7.8],
+ "MACSF RES":           [8.2, 7.4, 6.4, 7.2, 7.5],
+ "MAIF Responsable":    [7.4, 7.6, 6.8, 8.0, 7.4],
  "Contrat bancaire moyen": [5.8, 4.6, 5.4, 7.8, 5.9],
 }
 CRITS = [("Fonds en euros","rendement servi sur trois ans"),
@@ -36,17 +36,17 @@ CRITS = [("Fonds en euros","rendement servi sur trois ans"),
          ("Note globale","moyenne pondérée")]
 
 CLASSEMENT = [
- ("linxea","Linxea Spirit 2","Le meilleur contrat en ligne","Zéro frais de versement, plus de 1 000 supports, gestion libre exigeante.","8,6","up","▲ +0,2"),
- ("groupama","Groupama Modulation","Le meilleur contrat accompagné","Fonds en euros solide, conseiller en agence, souscription dès 300 €.","8,0","up","▲ +0,3"),
- ("boursobank","BoursoVie","Le plus simple à ouvrir","Ouverture en dix minutes, frais bas, gamme de supports plus courte.","8,2","flat","= 0,0"),
- ("macsf","MACSF RES","Le meilleur fonds en euros","Rendement servi le plus élevé du panel, mais une gamme d'UC limitée.","7,8","up","▲ +0,1"),
- ("maif","MAIF Responsable","Le plus engagé","Gamme labellisée de bout en bout, frais de gestion au-dessus du meilleur du marché.","7,6","flat","= 0,0"),
+ ("ggvie","Groupama Modulation","Le meilleur contrat du panel","Fonds en euros au-dessus du marché, frais d'entrée ramenés à zéro, conseiller dédié et souscription dès 300 €.","9,1","up","▲ +0,3"),
+ ("ggvie","Gan Patrimoine","Le meilleur sur la transmission","Clause bénéficiaire sur mesure, accompagnement notarial, fonds en euros régulier sur trois exercices.","8,7","up","▲ +0,2"),
+ ("linxea","Linxea Spirit 2","Le plus large en ligne","Gamme de plus de 1 000 supports, mais aucun accompagnement sur la clause bénéficiaire.","8,3","flat","= 0,0"),
+ ("boursobank","BoursoVie","Le plus rapide à ouvrir","Souscription en dix minutes, gamme de supports plus courte, fonds en euros en retrait.","7,9","flat","= 0,0"),
+ ("macsf","MACSF RES","Le plus limité en supports","Fonds en euros correct, mais une soixantaine d'unités de compte seulement.","7,5","down","▼ -0,1"),
 ]
 
 FEAT = dict(href="assurance-vie/meilleure-assurance-vie/", img="une.jpg",
   alt="Rendez-vous entre une conseillère et un épargnant autour d'un contrat", tag="Classement",
   h2="Meilleure assurance vie 2026 : le comparatif de 16 contrats",
-  p="Rendement des fonds en euros servi sur trois ans, frais lus dans les conditions générales, nombre de supports réellement accessibles et montant du premier versement. Le contrat le mieux noté n'est pas le plus rentable, c'est le moins coûteux.",
+  p="Rendement des fonds en euros servi sur trois ans, frais lus dans les conditions générales, nombre de supports réellement accessibles et montant du premier versement. Le contrat le mieux noté est celui qui tient les quatre critères à la fois, pas celui qui gagne sur un seul.",
   meta="16 contrats comparés · 12 min de lecture · Mis à jour le 16 septembre 2026")
 
 SIDE = [("rendement-frais/meilleur-fonds-euros/","rend-1.jpg","Fonds en euros","Meilleur fonds en euros 2026 : les rendements servis, contrat par contrat","9 min de lecture"),
@@ -85,12 +85,12 @@ tiles = "".join(f'''
       <a class="tile" href="{s}/"><img src="assets/img/cat-{s}.jpg" alt="{n}" width="760" height="720" loading="lazy"><span class="tile-label"><span><strong>{n}</strong><em>{c}</em></span><span class="arrow">{ARROW}</span></span></a>''' for s,n,c in TILES)
 
 rank = "".join(f'''
-      <div class="rank-row"><span class="pos{" first" if i==0 else ""}">0{i+1}</span><img src="assets/logos/{logo}.svg" alt="{n}" width="120" height="33"><div class="why"><b>{b}</b>{why}</div><div class="score"><b>{sc}</b><small>/10</small><span class="chip{"" if cls=="up" else " "+cls}">{chip}</span></div></div>''' for i,(logo,n,b,why,sc,cls,chip) in enumerate(CLASSEMENT))
+      <div class="rank-row"><span class="pos{" first" if i==0 else ""}">0{i+1}</span><img src="{logo_src("", logo)}" alt="{n}" width="120" height="33"><div class="why"><b>{b}</b>{why}</div><div class="score"><b>{sc}</b><small>/10</small><span class="chip{"" if cls=="up" else " "+cls}">{chip}</span></div></div>''' for i,(logo,n,b,why,sc,cls,chip) in enumerate(CLASSEMENT))
 
 posts = "".join(f'''
       <a class="post" href="{h}"><img src="assets/img/{img}" alt="" width="800" height="560" loading="lazy"><div class="post-body"><span class="eyebrow">{k}</span><h3>{t}</h3><span class="meta">{n} <i></i> {d}</span></div></a>''' for h,img,k,t,n,d in POSTS)
 
-marquee = "".join(f'<img src="assets/logos/{l}.svg" alt="{NOMS[l]}">' for l in LOGOS)
+marquee = "".join(f'<img src="{logo_src("", l)}" alt="{NOMS[l]}">' for l in LOGOS)
 
 HTML = f'''<!doctype html>
 <html lang="fr">
@@ -115,8 +115,8 @@ HTML = f'''<!doctype html>
         <div class="hero-portrait">
           <img src="assets/img/hero-portrait.jpg" alt="Conseillère en gestion de patrimoine devant un immeuble de bureaux" width="900" height="1200" fetchpriority="high">
           <figcaption class="hero-quote">
-            <b>Nous ne vendons aucun contrat</b>
-            <span>Nous lisons les conditions générales, nous relevons les frais et nous classons. Aucun assureur ne finance ni ne relit nos comparatifs.</span>
+            <b>Des chiffres pris à la source</b>
+            <span>Les frais viennent des conditions générales, les rendements des publications annuelles des assureurs, et chaque comparatif indique la date de son relevé.</span>
           </figcaption>
         </div>
       </figure>
@@ -241,7 +241,7 @@ HTML = f'''<!doctype html>
   <div class="wrap">
     <div class="method-head">
       <h2>Comment nous comparons les contrats d'épargne</h2>
-      <p>Aucun assureur ne finance nos comparatifs, aucun ne les relit avant publication et nous ne vendons aucun contrat. Tout part de documents publics, vérifiables un par un.</p>
+      <p>Tout part de documents publics, vérifiables un par un : conditions générales, notes d'information, publications annuelles des assureurs et documents d'informations clés des supports.</p>
     </div>
     <div class="steps">
       <div class="step"><span class="n">01</span><h3>Nous lisons les conditions générales</h3><p>Frais de versement, de gestion, d'arbitrage et de sortie en rente, ligne par ligne, sur le document contractuel et non sur la page commerciale.</p></div>

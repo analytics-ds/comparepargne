@@ -40,7 +40,7 @@ def render_podium(a, R):
     out = ""
     for i, (logo, name, label, detail, score) in enumerate(a["podium"]):
         out += (f'<div class="pod{" first" if i==0 else ""}"><span class="rank">0{i+1}</span>'
-                f'<img src="{R}assets/logos/{logo}.svg" alt="{strip(name)}" width="120" height="33">'
+                f'<img src="{logo_src(R, logo)}" alt="{strip(name)}" width="120" height="33">'
                 f'<b>{label}</b><span>{detail}</span>'
                 f'<span class="sc">{score}<span style="font-size:13px;opacity:.6">/10</span></span></div>')
     return f'<div class="podium">{out}</div>'
@@ -107,7 +107,7 @@ METHODE = '''      <div class="method-box">
           <li>Les rendements sont ceux publiés par l'assureur au titre du dernier exercice clos, nets de frais de gestion et bruts de prélèvements sociaux</li>
           <li>Les règles fiscales citées renvoient au code général des impôts et au code des assurances en vigueur à la date de mise à jour</li>
           <li>Le parcours de souscription est testé sur chaque contrat : premier versement, délai d'ouverture, délai de versement d'un rachat partiel</li>
-          <li>Aucun assureur ne finance ce comparatif, ne nous rémunère et ne le relit avant publication. Nous ne distribuons aucun contrat</li>
+          <li>Chaque chiffre publié renvoie au document contractuel ou à la publication annuelle dont il est tiré, et porte la date de son relevé</li>
         </ul>
       </div>'''
 
@@ -186,7 +186,7 @@ def render(a):
     <aside class="aside">
       <div class="aside-card">
         <h3>Notre choix</h3>
-        <div class="aside-win"><img src="{R}assets/logos/{win_logo}.svg" alt="{strip(win_name)}" width="120" height="33"><b>{win_score}</b></div>
+        <div class="aside-win"><img src="{logo_src(R, win_logo)}" alt="{strip(win_name)}" width="120" height="33"><b>{win_score}</b></div>
         <p>{win_label}. {win_detail}.</p>
         <a class="btn btn-dark" href="{R}#outil" style="width:100%;justify-content:center">Comparer 2 contrats</a>
       </div>

@@ -7,7 +7,7 @@ elle change partout.
 
 SITE = "https://analytics-ds.github.io/comparepargne"  # domaine reel a brancher avant mise en ligne
 NOM = "Comparépargne"
-BASELINE = "Le comparateur indépendant de l'assurance vie, du PER et de l'épargne longue."
+BASELINE = "Les comparatifs de l'assurance vie, du PER et de l'épargne longue."
 
 CATS = {
  "assurance-vie":        dict(menu="Assurance vie",  nom="Assurance vie"),
@@ -16,6 +16,12 @@ CATS = {
  "per-retraite":         dict(menu="Retraite",       nom="PER et retraite"),
  "epargne-responsable":  dict(menu="Épargne responsable", nom="Épargne responsable"),
 }
+
+LOGO_EXT = {"ggvie": "png"}  # le logo du client est fourni en PNG, les autres sont des signatures SVG
+
+def logo_src(R, slug):
+    """Chemin du logo d'un assureur depuis la profondeur R."""
+    return f'{R}assets/logos/{slug}.{LOGO_EXT.get(slug, "svg")}'
 
 ICON_SEARCH = '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M16 16l5 5"/></svg>'
 BURGER = ('<svg width="22" height="14" viewBox="0 0 22 14" fill="none" stroke="#111" stroke-width="1.7">'
@@ -84,12 +90,12 @@ def footer(R):
     return f'''<footer>
   <div class="wrap">
     <div class="foot-grid">
-      <div class="foot-brand"><a class="logo" href="{R or './'}" aria-label="{NOM}, accueil"><img src="{R}assets/logo/logo.svg" alt="{NOM}" width="620" height="133" loading="lazy"></a><p>{BASELINE} Nous relevons, nous comparons, nous classons. Nous ne vendons aucun contrat.</p></div>
+      <div class="foot-brand"><a class="logo" href="{R or './'}" aria-label="{NOM}, accueil"><img src="{R}assets/logo/logo.svg" alt="{NOM}" width="620" height="133" loading="lazy"></a><p>{BASELINE} Nous relevons les frais dans les conditions générales, nous reprenons les rendements publiés et nous classons.</p></div>
       <div><h4>Comparatifs</h4><ul>{cats}</ul></div>
       <div><h4>Outils</h4><ul><li><a href="{R}#outil">Comparer deux contrats</a></li><li><a href="{R}#simulateur">Simulateur d'épargne</a></li><li><a href="{R}#classement">Le classement du mois</a></li><li><a href="{R}#methode">Notre méthode</a></li></ul></div>
       <div><h4>À propos</h4><ul><li><a href="{R}#methode">Comment nous comparons</a></li><li><a href="{R}a-propos/">Qui sommes-nous</a></li><li><a href="{R}a-propos/#corrections">Signaler une erreur</a></li><li><a href="{R}mentions-legales/">Mentions légales</a></li></ul></div>
     </div>
-    <div class="foot-bottom"><span>© 2026 {NOM}. Comparateur indépendant de l'épargne longue.</span><span>Information non contractuelle, ne constitue pas un conseil en investissement.</span></div>
+    <div class="foot-bottom"><span>© 2026 {NOM}. Comparatifs d'assurance vie, de PER et d'épargne retraite.</span><span>Information non contractuelle, ne constitue pas un conseil en investissement.</span></div>
   </div>
 </footer>'''
 

@@ -1,6 +1,6 @@
 # Comparépargne
 
-Média comparateur indépendant de l'assurance vie, du PER et de l'épargne longue.
+Média comparateur de l'assurance vie, du PER et de l'épargne longue, aux couleurs de Groupama Gan Vie.
 Site statique, sans dépendance ni build : les pages HTML sont générées par des
 scripts Python et servies telles quelles. Titres en Bricolage Grotesque, texte en Inter,
 photographies Unsplash.
@@ -39,19 +39,23 @@ l'article correspondant n'existe pas, ce qui évite les liens morts.
 
 ## Avant mise en ligne publique
 
-1. **Remplacer les chiffres du panel par des relevés réels.** Les notes, frais, rendements
+1. **Décider de la ligne éditeur.** Le classement place Groupama Gan Vie en tête sur les
+   cinq rubriques, avec le logo de la marque. Les affirmations d'indépendance (« aucun
+   assureur ne finance ce comparatif ») ont donc été retirées du site : elles seraient
+   fausses. Reste à trancher qui est déclaré éditeur dans les mentions légales.
+2. **Remplacer les chiffres du panel par des relevés réels.** Les notes, frais, rendements
    et montants publiés sont des valeurs de démonstration construites sur des ordres de
    grandeur de marché. Sur un sujet financier, ils doivent être relevés contrat par contrat
    dans les conditions générales avant toute publication.
-2. **Vérifier les règles fiscales à la date de publication** (abattements, taux du
+3. **Vérifier les règles fiscales à la date de publication** (abattements, taux du
    prélèvement forfaitaire, taux des prélèvements sociaux, seuil de 150 000 €).
-3. **Remplacer les signatures d'assureurs** de `assets/logos/` par les logos officiels si
+4. **Remplacer les signatures d'assureurs** de `assets/logos/` par les logos officiels si
    les droits sont obtenus, ou les conserver telles quelles : ce sont de simples
    signatures typographiques produites par `gen_assets.py`.
-4. **Vérifier les crédits photo.** Les photographies viennent d'Unsplash et sont utilisées
+5. **Vérifier les crédits photo.** Les photographies viennent d'Unsplash et sont utilisées
    sous licence Unsplash. `sources_photos.json` garde le lien vers chaque photo d'origine.
-5. **Compléter les mentions légales** : éditeur, directeur de publication, hébergeur, contact.
-6. **Mettre `SITE` dans `common.py`** sur le domaine définitif, puis `python3 build_all.py`.
+6. **Compléter les mentions légales** : éditeur, directeur de publication, hébergeur, contact.
+7. **Mettre `SITE` dans `common.py`** sur le domaine définitif, puis `python3 build_all.py`.
 
 ## Développement local
 
