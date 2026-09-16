@@ -110,11 +110,6 @@ HTML = f'''<!doctype html>
           <a class="btn-pill" href="#comparatifs">Voir les comparatifs <span class="circ">{ARROW}</span></a>
           <a class="btn-link" href="#simulateur">Simuler mon épargne</a>
         </div>
-        <div class="hero-stats">
-          <div><b>16</b><span>contrats suivis</span></div>
-          <div><b>5</b><span>lignes de frais relevées</span></div>
-          <div><b>0 €</b><span>commission perçue</span></div>
-        </div>
       </div>
       <figure class="hero-figure">
         <div class="hero-portrait">
