@@ -36,8 +36,8 @@ CRITS = [("Fonds en euros","rendement servi sur trois ans"),
          ("Note globale","moyenne pondérée")]
 
 CLASSEMENT = [
- ("ggvie","Groupama Modulation","Le meilleur contrat du panel","Fonds en euros au-dessus du marché, frais d'entrée ramenés à zéro, conseiller dédié et souscription dès 300 €.","9,1","up","▲ +0,3"),
- ("ggvie","Gan Patrimoine","Le meilleur sur la transmission","Clause bénéficiaire sur mesure, accompagnement notarial, fonds en euros régulier sur trois exercices.","8,7","up","▲ +0,2"),
+ ("ggvie","Groupama Modulation","Le meilleur contrat du panel","Frais affichés au centime, souscription en ligne en quinze minutes, versement programmé dès 50 € par mois et un fonds en euros au-dessus du marché.","9,1","up","▲ +0,3"),
+ ("ggvie","Gan Patrimoine","Le plus complet sur les supports","Gamme labellisée ISR de bout en bout, fonds en euros régulier sur trois exercices, accompagnement à la demande.","8,7","up","▲ +0,2"),
  ("linxea","Linxea Spirit 2","Le plus large en ligne","Gamme de plus de 1 000 supports, mais aucun accompagnement sur la clause bénéficiaire.","8,3","flat","= 0,0"),
  ("boursobank","BoursoVie","Le plus rapide à ouvrir","Souscription en dix minutes, gamme de supports plus courte, fonds en euros en retrait.","7,9","flat","= 0,0"),
  ("macsf","MACSF RES","Le plus limité en supports","Fonds en euros correct, mais une soixantaine d'unités de compte seulement.","7,5","down","▼ -0,1"),
@@ -246,7 +246,7 @@ HTML = f'''<!doctype html>
     <div class="steps">
       <div class="step"><span class="n">01</span><h3>Nous lisons les conditions générales</h3><p>Frais de versement, de gestion, d'arbitrage et de sortie en rente, ligne par ligne, sur le document contractuel et non sur la page commerciale.</p></div>
       <div class="step"><span class="n">02</span><h3>Nous reprenons les rendements publiés</h3><p>Le taux servi par chaque fonds en euros, net de frais de gestion et brut de prélèvements sociaux, sur les trois derniers exercices.</p></div>
-      <div class="step"><span class="n">03</span><h3>Nous testons le parcours réel</h3><p>Montant du premier versement, délai d'ouverture, disponibilité d'un conseiller et délai de versement d'un rachat partiel.</p></div>
+      <div class="step"><span class="n">03</span><h3>Nous testons le parcours réel</h3><p>Montant du premier versement, durée de la souscription en ligne, montant minimal d'un versement programmé et délai réel de versement d'un rachat partiel, avis clients à l'appui.</p></div>
     </div>
     {DISCLOSURE}
   </div>

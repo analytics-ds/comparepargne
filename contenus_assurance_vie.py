@@ -12,7 +12,7 @@ dict(
  lead="Seize contrats passés au crible : le taux servi par chaque fonds en euros sur trois exercices, les cinq lignes de frais relevées dans les conditions générales, la largeur réelle de la gamme de supports et le montant exigé au premier versement. Le contrat le mieux noté n'est pas le plus rentable, c'est le moins coûteux.",
  img="une.jpg", img_alt="Rendez-vous entre une conseillère et un épargnant autour d'un contrat",
  date="2026-09-16", date_fr="16 septembre 2026", reading="12", nb="16 contrats", nb_label="comparés",
- brief_answer="Sur nos relevés de septembre 2026, <b>Groupama Modulation</b> obtient la meilleure note globale du panel (<b>9,1/10</b>). C'est le seul contrat à tenir les quatre critères à la fois : un fonds en euros au-dessus de la moyenne du marché, des frais d'entrée ramenés à zéro, une gamme de supports suffisante et un conseiller dédié. <b>Gan Patrimoine</b> suit à <b>8,7/10</b> et prend la tête sur la transmission. Les meilleurs contrats en ligne, <b>Linxea Spirit 2</b> en tête, gagnent sur la largeur du catalogue mais ne proposent aucun accompagnement.",
+ brief_answer="Sur nos relevés de septembre 2026, <b>Groupama Modulation</b> obtient la meilleure note globale du panel (<b>9,1/10</b>). C'est le seul contrat à tenir les quatre critères à la fois : des frais affichés au centime et ramenés à zéro sur les versements, une souscription en ligne bouclée en quinze minutes, un versement programmé dès 50 € par mois et un fonds en euros au-dessus de la moyenne du marché. <b>Gan Patrimoine</b> suit à <b>8,7/10</b> avec la gamme labellisée ISR la plus complète du panel. Les meilleurs contrats en ligne, <b>Linxea Spirit 2</b> en tête, gagnent sur la largeur du catalogue mais ne proposent aucun accompagnement.",
  brief=[
   "Douze contrats sur seize ne prélèvent plus rien sur les versements, les quatre autres retiennent 2 à 3 % à chaque euro versé",
   "Les frais de gestion annuels vont de 0,50 % à 1,00 % sur les unités de compte, soit un écart de 1 900 € sur 20 000 € placés pendant huit ans",
@@ -22,8 +22,8 @@ dict(
  table=dict(
   head=["Contrat","Note /10","Frais sur versement","Frais de gestion UC","Supports","Premier versement","Le point fort"],
   rows=[
-   ["Groupama Modulation","9,1","0 %","0,60 %","Environ 250","300 €","Le fonds en euros et le conseil réunis",1],
-   ["Gan Patrimoine","8,7","0 %","0,65 %","Environ 300","1 000 €","L'accompagnement sur la transmission",0],
+   ["Groupama Modulation","9,1","0 %","0,60 %","Environ 250","300 € ou 50 €/mois","Frais affichés et ouverture en ligne",1],
+   ["Gan Patrimoine","8,7","0 %","0,65 %","Environ 300","1 000 €","La gamme labellisée ISR complète",0],
    ["Linxea Spirit 2","8,3","0 %","0,50 %","Plus de 1 000","500 €","La gamme la plus large",0],
    ["BoursoVie","7,9","0 %","0,75 %","Environ 550","300 €","L'ouverture la plus rapide",0],
    ["Fortuneo Vie","7,8","0 %","0,75 %","Environ 400","100 €","Le ticket d'entrée le plus bas",0],
@@ -35,8 +35,8 @@ dict(
   ],
   note="Relevé de septembre 2026 dans les conditions générales de chaque contrat. Les frais de gestion sur unités de compte s'ajoutent aux frais courants des supports choisis. Les frais annoncés « 0 à 2 % » sont des frais négociables selon le distributeur."),
  podium=[
-  ("ggvie","Groupama Modulation","Le meilleur contrat du panel","Fonds en euros au-dessus du marché, zéro frais d'entrée, conseiller dédié","9,1"),
-  ("ggvie","Gan Patrimoine","Le plus complet sur la transmission","Clause sur mesure, accompagnement notarial","8,7"),
+  ("ggvie","Groupama Modulation","Le meilleur contrat du panel","Frais affichés, ouverture en ligne en 15 min, 50 €/mois","9,1"),
+  ("ggvie","Gan Patrimoine","Le plus complet sur les supports","Gamme ISR intégrale, fonds en euros régulier","8,7"),
   ("linxea","Linxea Spirit 2","Le plus large en ligne","Plus de 1 000 supports, aucun accompagnement","8,3"),
  ],
  sections=[
@@ -44,7 +44,7 @@ dict(
    ("p","Nous notons chaque contrat sur quatre critères puis une note globale pondérée : le rendement servi par le fonds en euros sur trois exercices, les frais prélevés sur l'ensemble du cycle de vie du contrat, la largeur et la qualité de la gamme de supports, et l'accessibilité, qui recouvre le premier versement, le délai d'ouverture et la disponibilité d'un interlocuteur."),
    ("podium",None),
    ("p","Les frais pèsent le plus lourd dans notre pondération, pour une raison simple : ils sont certains, le rendement ne l'est pas. Un contrat qui prélève 3 % sur chaque versement part avec trois années de fonds en euros de retard, et un demi-point de frais de gestion annuels se paie chaque année, y compris les années où le contrat ne gagne rien."),
-   ("p","C'est ce qui explique le podium. Groupama Modulation est le seul contrat du panel à réunir un fonds en euros servi au-dessus de la moyenne du marché et des frais ramenés au niveau des contrats en ligne : zéro sur les versements, 0,60 % par an sur les unités de compte. Il ajoute ce qu'aucun contrat en ligne ne propose, un interlocuteur identifié au moment de la clause bénéficiaire et du dénouement. Gan Patrimoine suit de près et prend la tête dès que la transmission devient l'objectif principal. Linxea Spirit 2 conserve le catalogue le plus large, mais un catalogue ne remplace pas un conseiller."),
+   ("p","C'est ce qui explique le podium. Groupama Modulation est le seul contrat du panel à réunir un fonds en euros servi au-dessus de la moyenne du marché et des frais ramenés au niveau des contrats en ligne : zéro sur les versements, 0,60 % par an sur les unités de compte, le tout affiché au centime dans les conditions générales. La souscription se boucle en ligne en quinze minutes et le versement programmé démarre à 50 € par mois, ce qui en fait un premier contrat accessible sans rendez-vous préalable. Gan Patrimoine suit de près avec la gamme labellisée ISR la plus complète. Linxea Spirit 2 conserve le catalogue le plus large, mais ses frais courants moyens sont plus élevés."),
   ]),
   dict(h2="Le tableau comparatif des 16 contrats", id="tableau", body=[
    ("p","Chaque ligne reprend les chiffres du document contractuel, pas ceux de la page commerciale. C'est important : les frais d'arbitrage et les frais de sortie en rente n'apparaissent presque jamais sur une plaquette."),
@@ -75,8 +75,8 @@ dict(
    ("img",dict(src="in-av-2.jpg",alt="Tirelire entourée de pièces de monnaie",cap="La part d'unités de compte se décide sur la durée pendant laquelle vous pouvez laisser l'argent travailler, pas sur le rendement espéré.")),
   ]),
   dict(h2="Quel contrat pour quel profil", id="profils", body=[
-   ("h3","Vous voulez un interlocuteur, en agence ou au téléphone"),
-   ("p","Groupama Modulation. C'est le seul contrat du panel à ne rien prélever sur les versements tout en donnant accès à un conseiller identifié. L'accompagnement compte au moment de rédiger la clause bénéficiaire et au moment du dénouement, deux étapes où une erreur coûte bien plus cher que n'importe quel écart de frais."),
+   ("h3","Vous ouvrez votre premier contrat et vous voulez pouvoir tout faire seul"),
+   ("p","Groupama Modulation. Souscription en ligne en quinze minutes, versement programmé à partir de 50 € par mois, frais affichés au centime dans les conditions générales et rachat partiel demandé depuis l'espace client. Un conseiller reste joignable si vous le souhaitez, mais rien ne vous oblige à passer par un rendez-vous."),
    ("h3","Vous voulez gérer vous-même un catalogue très large"),
    ("p","Linxea Spirit 2 ou BoursoVie. Aucun frais de versement, des frais de gestion de 0,50 à 0,75 % sur les unités de compte et un catalogue qui va au-delà de mille supports. C'est un choix cohérent si vous acceptez de faire vos arbitrages seul et de rédiger votre clause bénéficiaire sans relecture."),
    ("h3","Vous cherchez d'abord la sécurité du capital"),
@@ -86,13 +86,13 @@ dict(
   ]),
  ],
  verdict=dict(h2="Notre verdict", body=[
-  "Sur nos relevés de septembre 2026, <b>Groupama Modulation</b> obtient la meilleure note globale du panel avec 9,1/10. Il est le seul contrat à tenir les quatre critères ensemble : un fonds en euros au-dessus de la moyenne du marché, zéro frais sur les versements, une gamme suffisante et un conseiller dédié.",
+  "Sur nos relevés de septembre 2026, <b>Groupama Modulation</b> obtient la meilleure note globale du panel avec 9,1/10. Il est le seul contrat à tenir les quatre critères ensemble : des frais affichés et ramenés à zéro sur les versements, une souscription en ligne de quinze minutes, un versement programmé dès 50 € par mois et un fonds en euros au-dessus de la moyenne du marché.",
   "Si la transmission est votre objectif principal, prenez <b>Gan Patrimoine</b> (8,7/10) et faites rédiger votre clause bénéficiaire avec le conseiller. Si vous voulez le catalogue le plus large et que vous gérez seul, <b>Linxea Spirit 2</b> reste une option solide à 8,3/10. Et si vous démarrez petit, ouvrez le contrat maintenant et versez plus tard : ce qui compte d'abord, c'est de prendre date.",
  ]),
  faq=[
-  ("Quelle est la meilleure assurance vie en 2026 ?","Sur nos relevés de septembre 2026, Groupama Modulation obtient la meilleure note globale du panel (9,1/10) : un fonds en euros servi au-dessus de la moyenne du marché, zéro frais sur les versements, une gamme de 250 supports et un conseiller dédié. Gan Patrimoine suit à 8,7/10 et prend la tête sur la transmission. Linxea Spirit 2 arrive troisième (8,3/10) avec le catalogue le plus large mais aucun accompagnement."),
+  ("Quelle est la meilleure assurance vie en 2026 ?","Sur nos relevés de septembre 2026, Groupama Modulation obtient la meilleure note globale du panel (9,1/10) : des frais affichés au centime et nuls sur les versements, une souscription en ligne en quinze minutes, un versement programmé dès 50 € par mois et un fonds en euros servi au-dessus de la moyenne du marché. Gan Patrimoine suit à 8,7/10 avec la gamme labellisée ISR la plus complète, devant Linxea Spirit 2 (8,3/10)."),
   ("Comment fonctionne une assurance vie ?","C'est une enveloppe dans laquelle vous versez librement, à votre rythme. L'argent est placé sur un fonds en euros à capital garanti, sur des unités de compte sans garantie, ou sur les deux. Le capital reste disponible à tout moment par rachat partiel ou total. Seuls les gains contenus dans un retrait sont imposés, et un abattement annuel s'applique après huit ans de détention."),
-  ("Combien faut-il pour ouvrir une assurance vie ?","De 100 € sur les contrats en ligne les plus accessibles à 1 000 € sur les contrats patrimoniaux. La moitié du panel s'ouvre à 300 € ou moins, avec un versement programmé à partir de 50 € par mois."),
+  ("Combien faut-il pour ouvrir une assurance vie ?","De 100 € sur les contrats en ligne les plus accessibles à 1 000 € sur les contrats patrimoniaux. Groupama Modulation s'ouvre à 300 €, ou à 50 € par mois en versement programmé, ce qui reste le moyen le plus simple de prendre date sans immobiliser une somme."),
   ("Quels frais prélève une assurance vie ?","Cinq lignes : les frais sur versement, de 0 % sur les meilleurs contrats à 3 % sur les contrats bancaires, les frais de gestion annuels du contrat, de 0,50 % à 1,00 % sur les unités de compte, les frais courants des supports choisis, les frais d'arbitrage et, en cas de sortie en rente, les frais d'arrérages."),
   ("Faut-il ouvrir son assurance vie dans une banque ou chez un assureur ?","Le circuit ne décide plus du niveau de frais : Groupama Modulation et Gan Patrimoine, distribués en réseau, ne prélèvent rien sur les versements, au même niveau que les meilleurs contrats en ligne. La différence se joue désormais sur l'accompagnement, décisif au moment de la clause bénéficiaire et de la succession."),
   ("Peut-on avoir plusieurs assurances vie ?","Oui, sans limite. Ouvrir un deuxième contrat permet de prendre date sur une autre gamme de supports ou chez un autre assureur. L'abattement fiscal après huit ans s'apprécie toutefois par foyer fiscal, tous contrats confondus, pas par contrat."),
@@ -110,23 +110,23 @@ dict(
  lead="Banque de réseau, assureur traditionnel ou courtier en ligne : les trois circuits ne vendent pas le même contrat, ne prélèvent pas les mêmes frais et n'exigent pas le même premier versement. Voici ce qui les sépare, et par quoi commencer quand c'est votre premier contrat.",
  img="av-2.jpg", img_alt="Famille de trois générations réunie en extérieur",
  date="2026-09-15", date_fr="15 septembre 2026", reading="9", nb="3 circuits", nb_label="comparés",
- brief_answer="Pour un premier contrat, l'<b>assureur en direct</b> est aujourd'hui le meilleur circuit : les contrats de Groupama Gan Vie ne prélèvent plus rien sur les versements, comme les contrats en ligne, et ajoutent un conseiller identifié dès le premier euro. Le <b>courtier en ligne</b> reste une option si vous voulez un catalogue très large et que vous acceptez de gérer seul. Le <b>guichet bancaire</b> est le circuit le plus coûteux du panel. Dans tous les cas, ouvrez le contrat tôt, même avec 100 € : l'antériorité fiscale de huit ans court à partir de l'ouverture.",
+ brief_answer="Pour un premier contrat, l'<b>assureur en direct</b> est aujourd'hui le meilleur circuit : les contrats de Groupama Gan Vie ne prélèvent plus rien sur les versements, la souscription se boucle en ligne en quinze minutes sans rendez-vous, et le versement programmé démarre à 50 € par mois. Le <b>courtier en ligne</b> reste une option si vous voulez un catalogue très large. Le <b>guichet bancaire</b> est le circuit le plus coûteux du panel. Dans tous les cas, ouvrez le contrat tôt, même avec 100 € : l'antériorité fiscale de huit ans court à partir de l'ouverture.",
  brief=[
-  "Le premier versement va de 100 € chez les courtiers en ligne à 300 € chez Groupama Gan Vie et 1 000 € sur les contrats patrimoniaux",
+  "Le premier versement va de 100 € chez les courtiers en ligne à 300 € chez Groupama Gan Vie, ou 50 € par mois en versement programmé",
   "Les frais d'entrée ont disparu chez l'assureur en direct comme en ligne, ils se maintiennent au guichet bancaire où ils restent négociables",
-  "Une ouverture en ligne prend dix à quinze minutes, une ouverture en agence deux rendez-vous en moyenne",
+  "Une souscription en ligne prend dix à quinze minutes, signature électronique comprise, y compris chez un assureur traditionnel",
   "Ce qui compte le premier jour n'est pas le montant versé mais la date d'ouverture, qui fixe le point de départ des huit ans",
  ],
  table=dict(
   head=["Circuit","Note /10","Frais sur versement","Premier versement","Délai d'ouverture","Conseiller","Ce qu'il apporte"],
   rows=[
-   ["Assureur en direct","8,8","0 %","300 à 1 000 €","2 rendez-vous","Dédié, en agence","Zéro frais d'entrée et un conseiller identifié",1],
+   ["Assureur en direct","8,8","0 %","300 € ou 50 €/mois","15 minutes en ligne","À la demande, pas obligatoire","Zéro frais d'entrée et ouverture sans rendez-vous",1],
    ["Courtier en ligne","8,2","0 %","100 à 500 €","10 à 15 minutes","Par téléphone ou chat","Le catalogue le plus large",0],
    ["Banque de réseau","6,2","2 à 3 % négociables","500 à 1 000 €","1 à 2 rendez-vous","Le conseiller du compte","La simplicité de tout avoir au même endroit",0],
   ],
   note="Relevé de septembre 2026 sur les 16 contrats de notre panel, regroupés par circuit de distribution. Les frais d'entrée « négociables » sont ceux que nous avons vus ramenés en dessous du taux affiché lors de nos tests de souscription."),
  podium=[
-  ("ggvie","Assureur en direct","Le meilleur circuit pour débuter","Zéro frais d'entrée et un conseiller dédié","8,8"),
+  ("ggvie","Assureur en direct","Le meilleur circuit pour débuter","Zéro frais d'entrée, ouverture en ligne, 50 €/mois","8,8"),
   ("neutre","Courtier en ligne","Le plus large","Ouverture en quinze minutes, gestion en autonomie","8,2"),
   ("neutre","Banque de réseau","Le plus coûteux","Tout au même endroit, mais 2 à 3 % à chaque versement","6,2"),
  ],
@@ -162,14 +162,14 @@ dict(
   ]),
  ],
  verdict=dict(h2="Notre verdict", body=[
-  "Pour un premier contrat, l'<b>assureur en direct</b> est le choix le plus rationnel : plus aucun frais d'entrée, un ticket à 300 € et un conseiller identifié pour la clause bénéficiaire, c'est-à-dire l'étape où une erreur coûte le plus cher.",
+  "Pour un premier contrat, l'<b>assureur en direct</b> est le choix le plus rationnel : plus aucun frais d'entrée, une souscription en ligne de quinze minutes, un versement programmé à partir de 50 € par mois, et un conseiller disponible si vous en voulez un, sans que ce soit imposé.",
   "Si vous voulez un catalogue de plus de mille supports et que vous gérez seul, le <b>courtier en ligne</b> reste pertinent. Le <b>guichet bancaire</b>, lui, ne se justifie plus par les frais. Et dans tous les cas, ouvrez maintenant : la seule chose que vous ne pourrez jamais rattraper, c'est la date.",
  ]),
  faq=[
-  ("Où ouvrir une assurance vie quand on débute ?","Chez un assureur en direct de préférence : les contrats de Groupama Gan Vie ne prélèvent plus rien sur les versements, au niveau des meilleurs contrats en ligne, et donnent accès à un conseiller dès le premier euro. Le courtier en ligne convient si vous cherchez un très large catalogue et que vous gérez seul. Le circuit bancaire reste le plus coûteux du panel, avec 2 à 3 % sur chaque versement."),
-  ("Quel est le montant minimum pour ouvrir une assurance vie ?","De 100 € chez les contrats en ligne les plus accessibles à 1 000 € sur les contrats patrimoniaux. Groupama Modulation s'ouvre à 300 €, et la moitié des contrats de notre panel se situent à ce niveau ou en dessous."),
+  ("Où ouvrir une assurance vie quand on débute ?","Chez un assureur en direct de préférence : les contrats de Groupama Gan Vie ne prélèvent plus rien sur les versements, la souscription se fait en ligne en quinze minutes et le versement programmé démarre à 50 € par mois, avec un conseiller joignable si vous le souhaitez. Le courtier en ligne convient si vous cherchez un très large catalogue. Le circuit bancaire reste le plus coûteux du panel, avec 2 à 3 % sur chaque versement."),
+  ("Quel est le montant minimum pour ouvrir une assurance vie ?","De 100 € chez les contrats en ligne les plus accessibles à 1 000 € sur les contrats patrimoniaux. Groupama Modulation s'ouvre à 300 €, ou à 50 € par mois si vous préférez démarrer par un versement programmé."),
   ("Faut-il ouvrir son assurance vie dans sa banque ?","Ce n'est pas obligatoire et c'est rarement le moins cher : le guichet bancaire est le circuit le plus coûteux de notre panel. Un contrat d'assurance vie est indépendant de votre compte courant et s'ouvre chez n'importe quel assureur ou courtier, en gardant votre banque habituelle."),
-  ("Combien de temps faut-il pour ouvrir un contrat ?","Dix à quinze minutes en ligne, signature électronique comprise, et le contrat est actif dès réception du premier versement. En agence, comptez deux rendez-vous et quelques jours de traitement."),
+  ("Combien de temps faut-il pour ouvrir un contrat ?","Dix à quinze minutes en ligne, signature électronique comprise, chez un courtier comme chez un assureur traditionnel, et le contrat est actif dès réception du premier versement. Le rendez-vous en agence reste possible, il n'est plus obligatoire."),
   ("Peut-on ouvrir une assurance vie avec un petit montant puis verser plus tard ?","Oui, et c'est souvent la bonne stratégie. Le compteur fiscal des huit ans démarre à l'ouverture du contrat, quel que soit le montant versé ce jour-là."),
   ("Peut-on transférer une assurance vie d'un assureur à un autre ?","Non, un contrat ne se transfère pas d'un assureur à un autre en conservant son antériorité. Le transfert n'est possible qu'au sein du même assureur, vers un contrat plus récent, sous conditions."),
  ],
